@@ -19,7 +19,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 0
+        "dateLastModified": 1721086709
     },
 
     "language": [
@@ -32,20 +32,20 @@
                 "People of Seigai"
             ],
             "entries": [
-				"You will be hard-pressed to find an individual who speaks the language known as Common on the streets of the capital Kotoshi. The equivalent language for the citizens of Seigai is Draconic. Seigai Draconic has its own writing system, where each glyph describes a consonant-vowel pair (known as a kana). Some of the consonant-vowel sounds in the Common language are unused in Draconic."
+				"You will be hard-pressed to find an individual who speaks the language known as Common on the streets of the capital Kōtoshi. The equivalent language for the citizens of Seigai is Draconic. Seigai Draconic has its own writing system, where each glyph describes a consonant-vowel pair (known as a kana). Some of the consonant-vowel sounds in the Common language are unused in Draconic."
 			]
         },
         {
-            "name": "Shisa",
+            "name": "Shīsā",
             "source": "KuniosGuide",
             "page": 10,
             "type": "standard",
             "typicalSpeakers": [
                 "Bunagaya",
-                "People of Shikahan-shoto"
+                "People of Shikahan-shotō"
             ],
             "entries": [
-				"The language spoken in Shikahan-shoto, and by the {@race bunagaya|KuniosGuide} race."
+				"The language spoken in Shikahan-shotō, and by the {@race bunagaya|KuniosGuide} race."
 			]
         },
         {
@@ -69,6 +69,234 @@
             "typicalSpeakers": [
                 "Primates",
                 "Masaru"
+            ]
+        }
+    ],
+
+    "deity": [
+        {
+            "name": "Shōjō-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "C",
+                "NY"
+            ],
+            "title": "The Female-Who-Invites",
+            "domains": [
+                "Life",
+                "Death"
+            ],
+            "entries": [
+                "Among the first deities. With her husband {@deity Shōdan-sama|seigai kami|KuniosGuide}, created the land of Seigai, and birthed the rest of the kami."
+            ]
+        },
+        {
+            "name": "Shōdan-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "L",
+                "NY"
+            ],
+            "title": "The Male-Who-Invites",
+            "domains": [
+                "Forge",
+                "Nature"
+            ],
+            "entries": [
+                "Among the first deities. With his wife {@deity Shōjō-sama|seigai kami|KuniosGuide}, created the land of Seigai, and sired the rest of the kami."
+            ]
+        },
+        {
+            "name": "Tenshō-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "L",
+                "NY"
+            ],
+            "title": "The Heavenly-Shining-Great-August-Deity",
+            "domains": [
+                "Light",
+                "Life"
+            ],
+            "entries": [
+                "The great goddess of the Sun, supreme among the deities. Tenshō-sama ordained Suinushi-sama as Emperor."
+            ]
+        },
+        {
+            "name": "Tsuki-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "NX",
+                "NY"
+            ],
+            "title": "Moon-Night Possessor",
+            "altNames": [
+                "His Augustness"
+            ],
+            "domains": [
+                "Twilight",
+                "Light"
+            ],
+            "entries": [
+                "A brother of {@deity Tenshō-sama|seigai kami|KuniosGuide}, and governs the light of the moon. He and Tenshō-sama have an ancient quarrel, hence they are in different parts of the sky."
+            ]
+        },
+        {
+            "name": "Ran-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "C",
+                "NY"
+            ],
+            "title": "His-Swift-Impetuous-Male-Augustness",
+            "domains": [
+                "Tempest",
+                "Trickery"
+            ],
+            "entries": [
+                "Another brother of {@deity Tenshō-sama|seigai kami|KuniosGuide}, and also in conflict with her. Through his cunning, Ran-sama slew Chinushi-sama, giving rise to the chinushi-zu."
+            ]
+        },
+        {
+            "name": "Inga-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "C",
+                "NY"
+            ],
+            "title": "Heavenly-Alarming-Female",
+            "altNames": [
+                "Her Augustness"
+            ],
+            "domains": [
+                "Light",
+                "Unity"
+            ],
+            "entries": [
+                "The goddess of the dawn and revelry. When {@deity Tenshō-sama|seigai kami|KuniosGuide} once went into hiding, Inga-sama made the other kami laugh so much that Tenshō-sama came out of hiding to see what the commotion was about."
+            ]
+        },
+        {
+            "name": "Kaze-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "C",
+                "NY"
+            ],
+            "title": "The Prince-of-Long-Wind",
+            "domains": [
+                "Tempest",
+                "Arcana"
+            ],
+            "entries": [
+                "The god of the wind, and often paired with {@deity Kaminari-sama|seigai kami|KuniosGuide} in holy places. Kaze-sama has a terrifying green-skinned appearance and carries a bag of wind around his shoulders."
+            ]
+        },
+        {
+            "name": "Kaminari-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "NX",
+                "NY"
+            ],
+            "title": "The Eight Thunder-Deities",
+            "domains": [
+                "Tempest",
+                "Nature"
+            ],
+            "entries": [
+                "The god of storms, and often paired with {@deity Kaze-sama|seigai kami|KuniosGuide} in holy places. Kaminari-sama has a similarly terrifying appearance, and carries with him the taiko drums of thunder."
+            ]
+        },
+        {
+            "name": "Yōnō-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "C",
+                "NY"
+            ],
+            "domains": [
+                "Nature",
+                "Life"
+            ],
+            "entries": [
+                "The goddess of fertility and agriculture. Yōnō-sama has a close relationship with the kitsune, and is often depicted with a fox-like appearance. She is the most widely venerated kami in Seigai."
+            ]
+        },
+        {
+            "name": "Bushi-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "NX",
+                "NY"
+            ],
+            "title": "The Eight-Banners-Deity",
+            "domains": [
+                "War",
+                "Unity"
+            ],
+            "entries": [
+                "The divine protector of Seigai and the god of warriors. The Azure invoke Bushi-sama before going into battle."
+            ]
+        },
+        {
+            "name": "Kanushi-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "C",
+                "NY"
+            ],
+            "title": "The Shining-Elder",
+            "domains": [
+                "Forge",
+                "Death"
+            ],
+            "entries": [
+                "The kami of fire. The trauma of giving birth to Kanushi-sama killed {@deity Shōjō-sama|seigai kami|KuniosGuide}, which sent her to the underworld."
+            ]
+        },
+        {
+            "name": "Sōbai-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "L",
+                "NY"
+            ],
+            "title": "The Many-Minds'-Thought-Combining Deity",
+            "domains": [
+                "Order",
+                "Knowledge"
+            ],
+            "entries": [
+                "Sōbai-sama is the great mediator, the most wise of the kami."
+            ]
+        },
+        {
+            "name": "Mizu-sama",
+            "source": "KuniosGuide",
+            "pantheon": "seigai kami",
+            "alignment": [
+                "C",
+                "NY"
+            ],
+            "domains": [
+                "Nature",
+                "Grave"
+            ],
+            "entries": [
+                "The guardian of pools, lakes, seas, and the ocean, and all who reside in them. Also the goddess of the sewers."
             ]
         }
     ],
@@ -126,9 +354,53 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "“A child that does not resemble its parents is the child of an oni.” This common Seiganese expression is often used to chastise a child; however, for some individuals, this phrase takes on an all-too-real quality. Every so often, a child is born with red, blue, or green skin, along with two horns on their head and jet-black hair. This event is often associated with a curse placed on a family, but the child is rarely seen as a curse in and of themselves. In fact, the child is commonly seen as a sign of warding, keeping greater oni from terrorising their home.",
+                            "A half-oni will differentiate themself from a pureblooded oni by wearing a talisman such as a necklace of holly leaves and dried sardine heads, or offering gifts of roasted soybeans; these are examples of things that regular oni cannot abide. Without this vital visual evidence that a half-oni is not an oni, they will usually find people avoid them in the street out of fear."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Subraces",
+                        "entries": [
+                            "In addition to the base racial traits of the half-oni, you have a racial heritage and gain attributes from that race according to the table below. You inherit the Speed, Size, and Language attributes from your parent race.",
+                            {
+                                "type": "table",
+                                "colLabels": [
+                                    "Parent Race",
+                                    "Ability"
+                                ],
+                                "rows": [
+                                    [
+                                        "Human",
+                                        "Skill Proficiency"
+                                    ],
+                                    [
+                                        "Bunagaya",
+                                        "Brave, Halfling Nimbleness, Limber, Net Positive"
+                                    ],
+                                    [
+                                        "Lappa",
+                                        "Dish Head, Natural Armor"
+                                    ],
+                                    [
+                                        "Korpokkur",
+                                        "Home Is Where The Hearth Is, Skilled Potter"
+                                    ],
+                                    [
+                                        "Masaru",
+                                        "Animal Empathy, Forager, Light-Footed and Light-Tailed, Prehensile Tail"
+                                    ],
+                                    [
+                                        "Ryūson",
+                                        "Amphibious, Godai Spirit"
+                                    ],
+                                    [
+                                        "Shapechanger",
+                                        "Bakemono"
+                                    ]
+                                ]
+                            }
                         ]
                     }
                 ]
@@ -228,9 +500,8 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "At first sight, one could easily be disgusted by a kappa. While they resemble the tortles of other lands, it is not difficult to see how they diverge: a shorter stature, webbed fingers and toes, a beak-like mouth with pointed teeth, but most disturbingly, a circular orifice in the top of their skull, giving access to a water-filled chamber where, by all rights, the brain should reside. It would be far too easy to dismiss these creatures as the product of darkness—but that would be an unfair judgement. Many kappa are quite wise, gentle creatures."
                         ]
                     }
                 ]
@@ -322,16 +593,17 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "The masaru are a race of intelligent bipedal primates native to the jungles of Shōdanshima. They are typically curious and blunt creatures, full of impropriety. At the same time, they are known for their great bravery and loyalty.",
+                            "Though the masaru and bunagaya hail from different regions in Seigai, it is said that whenever the two meet they tend to foster deep friendships.",
+                            "If masaru have one vice, it is hot water. If you ever need to find a masaru, go check the nearest onsen."
                         ]
                     }
                 ]
             }
         },
         {
-            "name": "Ryuson",
+            "name": "Ryūson",
             "source": "KuniosGuide",
             "page": 35,
             "ability": [
@@ -358,7 +630,7 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        "Ryuson live between 100 and 150 years."
+                        "Ryūson live between 100 and 150 years."
                     ]
                 },
                 {
@@ -464,9 +736,44 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "The dragonborn of Seigai are known as ryūson, taking after the ō-ryū, and have few elements in common with foreign dragonborn. Rather than tendrils, ryūson have soft hair. Their heads are more mammalian than reptilian and two horns protrude backwards from the rear of the skull. Male ryūson have long flowing whiskers and beards, while female ryūson have more modest horns, and longer serpentine tails. The scales of the ryūson change their color depending on the angle of the light.",
+                            "Each ryūson has a lineage that can be traced back to one of the elder dragon kami of Seigai."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Earth Dragonborn",
+                        "entries": [
+                            "Earth dragonborn (chison) can trace their lineage back to the great eightforked serpent Chinushi-sama. They have a natural affinity with the ground beneath their feet. Their scales are a dusty tan color and their faces are more naturally frightening than other ryūson."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Water Dragonborn",
+                        "entries": [
+                            "Water dragonborn (suison) trace their ancestors back to the Dragon Emperor himself, Suinushi-sama. They are at one with the ocean, instinctively reacting to and flowing with the currents as they swim. Their tail is considerably longer than other ryūson."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Fire Dragonborn",
+                        "entries": [
+                            "Fire dragonborn (kason) are connected to the kami of fire, {@deity Kanushi-sama|seigai kami|KuniosGuide}, who himself was born from {@deity Shōjō-sama|seigai kami|KuniosGuide}, killing her in the process. Their skin color is coal-black. Their body temperature is warmer than other creatures—you would be wise not to offer your hand to a fire dragonborn without a protective glove."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Air Dragonborn",
+                        "entries": [
+                            "Air dragonborn (fūson) are descendants of the great dragon Fūnushi-sama of the rain and the snow, and feel quite at home in inclement weather."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Void Dragonborn",
+                        "entries": [
+                            "Void dragonborn (kūson) are tied to the great dragon protector of the night stars, Kūnushi-sama. They are just as much a part of the Ethereal Realm as the Material Plane. Their skin is deep indigo and they have silver hair."
                         ]
                     }
                 ]
@@ -555,9 +862,9 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "In Seigai when a beast reaches a certain age, there is a chance they will grow into a bakemono, meaning “shapechanger.” While this has been known to happen to many kinds of beasts, there are five that show a particular capability of making this ascent: cats, otters, foxes, badgers, and raccoon-dogs. Why this happens, no-one is particularly sure, although there are a number of theories (one even states it is directly related to the amount of lamp oil the creature has consumed in its life).",
+                            "Shapechangers live mostly among their own tribes in the wild, however they have been known to make trips into urban centres, often out of mere curiosity. When interacting with folk from other races, a shapechanger will almost always adopt a humanoid or anthropomorphic form. Even in their humanoid forms, shapechangers have distinct characteristics that belie their true nature; it is often their tail that gives them away."
                         ]
                     }
                 ]
@@ -590,7 +897,7 @@
             "languageProficiencies": [
                 {
                     "seigai draconic": true,
-                    "shisa|KuniosGuide": true
+                    "shīsā|KuniosGuide": true
                 }
             ],
             "entries": [
@@ -612,7 +919,7 @@
 					"type": "entries",
                     "name": "Languages",
 					"entries": [
-						"You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic} and {@language Shisa|KuniosGuide}."
+						"You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic} and {@language Shīsā|KuniosGuide}."
 					],
 					"data": {
 						"overwrite": "Languages"
@@ -628,9 +935,10 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "In the Shikahan-shotō region, the spirit of cooperation is a tradition held dear between humans and a race of halflings known as bunagaya, or kijimunā in the Shīsā tongue. The bunagaya may look like children, but while Seiganese individuals of other races will grow old and grey, bunagaya keep their youthful features and thick orange hair well into their later years. The bunagaya are coastal folk and gladly put this knowledge to good use by helping fisherfolk with their trade; with a bunagaya companion, you can always guarantee returning home with a bucketful of fish.",
+                            "Bunagaya reside in the banyan trees of Shikahanshotō, creating complex networks of treehouses and hanging walkways. When away from home, most bunagaya are fairly restless until they can find an elevated position on which to sleep.",
+                            "Another such peculiarity is the shared enmity between bunagaya and octopuses. This antagonism spans back generations and no-one can quite remember why it is that they dislike each other so much."
                         ]
                     }
                 ]
@@ -701,9 +1009,11 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "In the Ryūguchi Sea, there exists a small volcanic island chain known as Rep-un-Mosir in Kuma, which is the language spoken there. These islands are home to an indigenous race known as the korpokkur, meaning “people below the leaves of the butterbur plant”.",
+                            "The korpokkur stand two to three feet tall and, like the bunagaya, are skilled fisherfolk. However, the similarities end there. Rather than making their homes in the trees, the korpokkur prefer to construct elaborate pits with domed roofs made of the leaves of the butterbur plant, which offer much more protection from the strong winds that regularly tear through Rep-un-Mosir. The korpokkur place special importance on the homes they build, and revere the hearth as she is a kami that must be kept aflame, known as Grandma Fire.",
+                            "Korpokkur are shy individuals, and prefer to remain unseen. Despite this, they have a good relationship with the humans who also occupy Rep-un-Mosir, frequently exchanging gifts under cover of darkness.",
+                            "If a korpokkur has left Rep-un-Mosir, it is usually for an exceedingly good reason."
                         ]
                     }
                 ]
@@ -717,9 +1027,13 @@
             "page": 39,
             "ability": [
                 {
-                    "dex": 1
+                    "dex": 2,
+                    "wis": 1
                 }
             ],
+            "overwrite": {
+                "ability": true
+            },
 			"additionalSpells": [
 				{
 					"ability": "wis",
@@ -774,9 +1088,8 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "Cats are often kept as house pets in Seigai, with the added benefit of keeping rodents and other pests out of the home. Seiganese people highly venerate domesticated cats, due to the chance that a cat will awaken as it reaches old age. Poorly treated cats who awaken into bakeneko often devote their time to tormenting their former owners. A well-kept bakeneko may live quite happily in society. Tribes of bakeneko are rare, and they are usually only seen in ones or twos."
                         ]
                     }
                 ]
@@ -790,9 +1103,13 @@
             "page": 40,
             "ability": [
                 {
-                    "wis": 1
+                    "wis": 2,
+                    "dex": 1
                 }
             ],
+            "overwrite": {
+                "ability": true
+            },
 			"additionalSpells": [
 				{
 					"ability": "wis",
@@ -847,9 +1164,8 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "Kawauso are river otters who have awakened as they have aged. They are famous for their dietary choices; for example, as their habitat often contains a lot of competition for food, the kawauso have learned how to break the defences of large crustaceans, prying open their chitinous armor. If they have one culinary vice, it is a love of sake. Give a kawauso a cup of your best sake and they will be your ally forever, it is said."
                         ]
                     }
                 ]
@@ -863,9 +1179,14 @@
             "page": 40,
             "ability": [
                 {
+                    "dex": 1,
+                    "wis": 1,
                     "int": 1
                 }
             ],
+            "overwrite": {
+                "ability": true
+            },
             "languageProficiencies": [
                 {
                     "anyStandard": 2
@@ -937,9 +1258,8 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "There is a special reverence for foxes among the people of Seigai. They are often thought of as the messengers of the kami, particularly {@deity Yōnō-sama|seigai kami|KuniosGuide}. However, the kami do not always bring good tidings. The Seigai people can be quite superstitious, and if a person appears too cunning, they may be accused of being a kitsune bringing a bad omen. Of all the shapechangers, kitsune are the most adept at hiding their true nature."
                         ]
                     }
                 ]
@@ -953,9 +1273,13 @@
             "page": 41,
             "ability": [
                 {
-                    "dex": 1
+                    "dex": 2,
+                    "wis": 1
                 }
             ],
+            "overwrite": {
+                "ability": true
+            },
 			"additionalSpells": [
 				{
 					"ability": "wis",
@@ -1010,9 +1334,8 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "I must confess I have never had the pleasure of meeting a mujina—at least to my knowledge. Mujina are the least likely to be seen among urban society, preferring to spend their time deep in the forests and away from the complications of bureaucracy. In fact, I have heard they are so introverted, that often they will learn how to adopt a frightening faceless form called nopperabō just to avoid a conversation."
                         ]
                     }
                 ]
@@ -1026,9 +1349,13 @@
             "page": 41,
             "ability": [
                 {
-                    "wis": 1
+                    "wis": 2,
+                    "dex": 1
                 }
             ],
+            "overwrite": {
+                "ability": true
+            },
 			"additionalSpells": [
 				{
 					"ability": "wis",
@@ -1090,9 +1417,8 @@
                 "entries": [
                     {
                         "type": "entries",
-                        "name": "Some interesting fluff",
                         "entries": [
-                            "This is such a cool race!"
+                            "While on my travels, I would occasionally encounter one of these portly furry creatures, mostly in rural areas. The tanuki bear some resemblance to raccoons and pandas, however I do believe they are unrelated. I have heard it said that the male tanuki have abnormally large scrota; while I have not seen this in person, I did notice many of them wearing baggy trousers."
                         ]
                     }
                 ]
@@ -1170,7 +1496,7 @@
             "languageProficiencies": [
                 {
                     "seigai draconic": true,
-                    "shisa|KuniosGuide": true
+                    "shīsā|KuniosGuide": true
                 }
             ],
             "entries": [
@@ -1212,7 +1538,7 @@
 					"type": "entries",
                     "name": "Languages",
 					"entries": [
-						"You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic} and {@language Shisa|KuniosGuide}."
+						"You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic} and {@language Shīsā|KuniosGuide}."
 					]
                 }
             ]
@@ -1411,7 +1737,7 @@
             ]
         },
         {
-            "name": "Ryuson Heritage",
+            "name": "Ryūson Heritage",
             "source": "KuniosGuide",
             "raceName": "Half-Oni",
             "raceSource": "KuniosGuide",
