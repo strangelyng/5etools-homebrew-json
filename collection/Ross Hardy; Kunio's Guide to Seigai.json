@@ -1,0 +1,1575 @@
+{
+"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+
+    "_meta": {
+        "sources": [
+            {
+                "json": "KuniosGuide",
+                "abbreviation": "KGtS",
+                "full": "Kunio's Guide to Seigai",
+                "authors": [
+                    "Ross Hardy"
+                ],
+                "convertedBy": [
+                    "Strangelyng"
+                ],
+                "version": "2.0.4",
+                "url": "https://www.reddit.com/r/UnearthedArcana/comments/jzn47g/kunios_guide_to_seigai_second_release_a/",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+
+    "language": [
+        {
+            "name": "Seigai Draconic",
+            "source": "KuniosGuide",
+            "page": 10,
+            "type": "standard",
+            "typicalSpeakers": [
+                "People of Seigai"
+            ],
+            "entries": [
+				"You will be hard-pressed to find an individual who speaks the language known as Common on the streets of the capital Kotoshi. The equivalent language for the citizens of Seigai is Draconic. Seigai Draconic has its own writing system, where each glyph describes a consonant-vowel pair (known as a kana). Some of the consonant-vowel sounds in the Common language are unused in Draconic."
+			]
+        },
+        {
+            "name": "Shisa",
+            "source": "KuniosGuide",
+            "page": 10,
+            "type": "standard",
+            "typicalSpeakers": [
+                "Bunagaya",
+                "People of Shikahan-shoto"
+            ],
+            "entries": [
+				"The language spoken in Shikahan-shoto, and by the {@race bunagaya|KuniosGuide} race."
+			]
+        },
+        {
+            "name": "Kuma",
+            "source": "KuniosGuide",
+            "page": 10,
+            "type": "standard",
+            "typicalSpeakers": [
+                "Korpokkur",
+                "Humans of Rep-un-Mosir"
+            ],
+            "entries": [
+				"The language spoken in Rep-un-Mosir, and by the {@race korpokkur|KuniosGuide} race. Its name means 'bear' in common."
+			]
+        },
+        {
+            "name": "Primate",
+            "source": "KuniosGuide",
+            "page": 10,
+            "type": "exotic",
+            "typicalSpeakers": [
+                "Primates",
+                "Masaru"
+            ]
+        }
+    ],
+
+    "race": [
+        {
+            "name": "Half-Oni",
+            "source": "KuniosGuide",
+            "page": 30,
+            "creatureTypes": [
+                "fiend"
+            ],
+            "ability": [
+                {
+                    "cha": 2,
+                    "str": 1
+                }
+            ],
+            "darkvision": 60,
+            "additionalSpells": [
+                {
+                    "ability": "cha",
+                    "known": {
+                        "1": [
+                            "primal savagery|KuniosGuide"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern colors in darkness, only shades of gray."
+					]
+				},
+                {
+                    "type": "entries",
+                    "name": "Fiend",
+                    "entries": [
+                        "Your creature type is fiend, rather than humanoid."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Oni's Legacy",
+                    "entries": [
+                        "You can cast the {@spell primal savagery|KuniosGuide} cantrip, using Charisma as your spellcasting ability."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kappa",
+            "source": "KuniosGuide",
+            "page": 31,
+            "creatureTypes": [
+                "fey"
+            ],
+            "ability": [
+                {
+                    "dex": 2,
+                    "str": 1
+                }
+            ],
+            "size": [
+                "S"
+            ],
+            "speed": {
+                "walk": 25,
+                "swim": 25
+            },
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "aquan": true
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "medicine": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your size is Small."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "You have a walking and swimming speed of 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Claws",
+                    "entries": [
+                        "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dish Head",
+                    "entries": [
+                        "Your head crests up into a small dish filled with water. While your head is filled with water, you have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic. Whenever you fail a Dexterity saving throw, the bowl empties, and must be refilled to restore this ability. If you fail the Dexterity saving throw by 5 or more, the bowl empties completely, and you gain a point of {@condition exhaustion}, which can only be removed by refilling the bowl."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fey",
+                    "entries": [
+                        "Your creature type is fey, rather than humanoid."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Armor",
+                    "entries": [
+                        "Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Wellbeing",
+                    "entries": [
+                        "Kappa have an intuitive knowledge of medicine, particularly the skill of setting broken bones. You have proficiency in the {@skill Medicine} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak {@language Seigai Draconic|KuniosGuide|Draconic} and Aquan."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Masaru",
+            "source": "KuniosGuide",
+            "page": 33,
+            "ability": [
+                {
+                    "dex": 2,
+                    "wis": 1
+                }
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 25,
+                "climb": 25
+            },
+            "languageProficiencies": [
+                {
+                    "seigai draconic|KuniosGuide": true,
+                    "primate|KuniosGuide": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Masaru typically live up to about 60 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Masaru range in size from 4 and a half to 5 and a half feet tall. Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "You have a walking and climbing speed of 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Animal Empathy",
+                    "entries": [
+                        "Whenever you make a Wisdom ({@skill Animal Handling}) check related to primates or tamed animal species, you are considered proficient in the {@skill Animal Handling} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Forager",
+                    "entries": [
+                        "You have advantage on rolls for foraging for food."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Light-Footed and Light-Tailed",
+                    "entries": [
+                        "You have advantage on {@skill Stealth} rolls when you're at a higher elevation than the person/people trying to detect you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Prehensile Tail",
+                    "entries": [
+                        "Your tail is dexterous enough to use basic tools, pick up objects, and hold you hanging from something. Your tail cannot wield weapons or a shield."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic}, and you can speak {@language primate|KuniosGuide}. Primate does not have a written language."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ryuson",
+            "source": "KuniosGuide",
+            "page": 35,
+            "ability": [
+                {
+                    "cha": 2
+                }
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "darkvision": 60,
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Ryuson live between 100 and 150 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+                    ]
+                },
+                {
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+                },
+                {
+                    "type": "entries",
+                    "name": "Amphibious",
+                    "entries": [
+						"You can breathe air and water."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Draconic Ancestry",
+                    "entries": [
+                        "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your ability score increase and Godai Spirit Powers are determined by the dragon type, as shown in the table."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Godai Spirit",
+                    "entries": [
+                        "You can cast the cantrip associated with your draconic ancestry at well. When you reach 5th level, you can cast the Seijin Spell associated with your draconic ancestry once with this trait and regain the ability to do so when you finish a long rest. When you reach 11th level, you can cast the Teinen Spell associated with your draconic ancestry once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+                        {
+                            "type": "table",
+                            "caption": "Draconic Ancestry",
+                            "colLabels": [
+                                "Dragon",
+                                "Ability",
+                                "Cantrip",
+                                "Seijin Spell",
+                                "Teinen Spell"
+                            ],
+                            "rows": [
+                                [
+                                    "Earth",
+                                    "Constitution",
+                                    "{@spell Mold Earth|xge}",
+                                    "{@spell Seijin of Earth|KuniosGuide}",
+                                    "{@spell Investiture of Earth|KuniosGuide}"
+                                ],
+                                [
+                                    "Water",
+                                    "Wisdom",
+                                    "{@spell Shape Water|xge}",
+                                    "{@spell Seijin of Ice|KuniosGuide}",
+                                    "{@spell Investiture of Ice|KuniosGuide}"
+                                ],
+                                [
+                                    "Fire",
+                                    "Strength",
+                                    "{@spell Control Flames|xge}",
+                                    "{@spell Seijin of Flames|KuniosGuide}",
+                                    "{@spell Investiture of Flames|KuniosGuide}"
+                                ],
+                                [
+                                    "Air",
+                                    "Dexterity",
+                                    "{@spell Gust|xge}",
+                                    "{@spell Seijin of Wind|KuniosGuide}",
+                                    "{@spell Investiture of Wind|KuniosGuide}"
+                                ],
+                                [
+                                    "Void",
+                                    "Intelligence",
+                                    "{@spell True Strike|phb}",
+                                    "{@spell Seijin of Aether|KuniosGuide}",
+                                    "{@spell Investiture of Aether|KuniosGuide}"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak {@language Seigai Draconic|KuniosGuide|Draconic} and one other language of your choice."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shapechanger",
+            "source": "KuniosGuide",
+            "page": 38,
+            "ability": [
+                {
+                    "dex": 1,
+                    "wis": 1
+                }
+            ],
+            "size": [
+                "M",
+                "S"
+            ],
+            "speed": 30,
+            "creatureTypes": [
+                "fey"
+            ],
+            "darkvision": 60,
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "When in humanoid form, you are a Medium creature. When in anthropomorphic form, you are a Small creature."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "When in humanoid or anthropomorphic form, your walking speed is 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fey",
+                    "entries": [
+                        "Your creature type is fey, rather than humanoid."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bakemono",
+                    "entries": [
+                        "You can use an action to shapeshift into your beast form, into a humanoid, or into an anthropomorphic (semi-humanoid) form halfway between the two. Your appearance in all three forms is hereditary just like any other race, and any equipment you wear in your human form adjusts to the size of your anthropomorphic form. When shifted into your beast form, the following rules apply:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, hit points, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiences, in addition to gaining those of the beast. If the beast has the same proficiency as you and the bonus in its stat block is higher than yours, use the beast's bonus instead of yours.",
+                                "You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as {@spell call lightning|phb}, that you've already cast.",
+                                "You retain the benefit of any features from your class or other sources and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.",
+                                "You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have a nocturnal creature's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak {@language Seigai Draconic|KuniosGuide|Draconic} and one other language of your choice."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+
+    "subrace": [
+        {
+            "name": "Bunagaya",
+            "source": "KuniosGuide",
+            "raceName": "Halfling",
+            "raceSource": "PHB",
+            "page": 29,
+            "ability": [
+                {
+                    "wis": 1
+                }
+            ],
+            "speed": {
+                "walk": 25,
+                "swim": 25,
+                "climb": 25
+            },
+            "weaponProficiencies": [
+                {
+                    "net|phb": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "shisa|KuniosGuide": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Limber",
+                    "entries": [
+                        "You have a swimming speed of 25 feet and a climbing speed of 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Net Positive",
+                    "entries": [
+                        "You have proficiency with {@item net|phb|nets}, and when making an attack with a net, you have advantage on the roll."
+                    ]
+                },
+				{
+					"type": "entries",
+                    "name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic} and {@language Shisa|KuniosGuide}."
+					],
+					"data": {
+						"overwrite": "Languages"
+					}
+                }
+            ],
+            "overwrite": {
+                "speed": true,
+                "languageProficiencies": true
+            },
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Korpokkur",
+            "source": "KuniosGuide",
+            "raceName": "Dwarf",
+            "raceSource": "PHB",
+            "page": 32,
+            "ability": [
+                {
+                    "wis": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "potter's tools": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "kuma|KuniosGuide": true
+                }
+            ],
+            "additionalSpells": [
+                {
+                    "known": {
+                        "1": [
+                            "mold earth|xge"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Home Is Where The Hearth Is",
+                    "entries": [
+                        "You know the {@spell mold earth|xge} cantrip and can cast it at will. In addition, you can spend an hour crafting a korpokkur home large enough for 10 medium creatures, provided the ground is earth. A creature you completes a long rest inside this home gains temporary hit points equal to half their level rounded down (minimum 1). You can spend another hour to unmake the home, leaving no trace of you having been there."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Skilled Potter",
+                    "entries": [
+                        "You have proficiency with {@item potter's tools|phb}."
+                    ]
+                },
+				{
+					"type": "entries",
+                    "name": "Languages",
+					"entries": [
+						"You can speak {@language Seigai Draconic|KuniosGuide|Draconic} and {@language Kuma|KuniosGuide}."
+					],
+					"data": {
+						"overwrite": "Languages"
+					}
+                }
+            ],
+            "overwrite": {
+                "languageProficiencies": true
+            },
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bakeneko (Cat)",
+            "source": "KuniosGuide",
+            "raceName": "Shapechanger",
+            "raceSource": "KuniosGuide",
+            "page": 39,
+            "ability": [
+                {
+                    "dex": 1
+                }
+            ],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": [
+							"produce flame#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"feather fall"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"protection from poison"
+								]
+							}
+						}
+					}
+				}
+			],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Bakeneko have usually awakened by age 15 as an adult, and go on to live another 100 years on average."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bakeneko Magic",
+                    "entries": [
+                        "You know the {@spell produce flame} cantrip. When you reach 3rd level, you can cast the {@spell feather fall} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell protection from poison} spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Feline Agility",
+                    "entries": [
+                        "Your reflexes and agility allows you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kawauso (Otter)",
+            "source": "KuniosGuide",
+            "raceName": "Shapechanger",
+            "raceSource": "KuniosGuide",
+            "page": 40,
+            "ability": [
+                {
+                    "wis": 1
+                }
+            ],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": [
+							"magic stone|xge"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"command"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"calm emotions"
+								]
+							}
+						}
+					}
+				}
+			],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Rivers are a dangerous place to make your home in Seigai, and provided a kawauso has not been eaten by a suiko or garappa by age 10, awakening is a foregone conclusion. They tend to live the shortest of the shapechangers, lasting around 80 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Kawauso Magic",
+                    "entries": [
+                        "You know the {@spell magic stone|xge} cantrip. When you reach 3rd level, you can cast the {@spell command} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell calm emotions} spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mimicry",
+                    "entries": [
+                        "You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom ({@skill Insight}) check opposed by your Charisma ({@skill Deception}) check."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kitsune (Fox)",
+            "source": "KuniosGuide",
+            "raceName": "Shapechanger",
+            "raceSource": "KuniosGuide",
+            "page": 40,
+            "ability": [
+                {
+                    "int": 1
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 2
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "deception": true
+                }
+            ],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": [
+							"dancing lights#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"sanctuary"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"sending"
+								]
+							}
+						}
+					}
+				}
+			],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "If a fox has reached the age of 5, it will almost certainly become a kitsune bakemono. Typically they awaken with infant minds, but kitsune go on to live long lives, gaining an extra tail every 100 years or so. At 900 years and 9 tails, a kitsune will ascend into a celestial form."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Gifted Communicator",
+                    "entries": [
+                        "You can speak, read, and write two languages of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Kitsune Magic",
+                    "entries": [
+                        "You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell sanctuary} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell sending} spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Scoundrel",
+                    "entries": [
+                        "You are proficient in the {@skill Deception} skill."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mujina (Badger)",
+            "source": "KuniosGuide",
+            "raceName": "Shapechanger",
+            "raceSource": "KuniosGuide",
+            "page": 41,
+            "ability": [
+                {
+                    "dex": 1
+                }
+            ],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": [
+							"shillelagh"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"alarm"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"locate animals or plants"
+								]
+							}
+						}
+					}
+				}
+			],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Once a badger reaches the age of 13, the chance of it awakening into a mujina increases exponentially. They go on ot live around 250 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mujina Magic",
+                    "entries": [
+                        "You know the {@spell shillelagh} cantrip. When you reach 3rd level, you can cast the {@spell alarm} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell locate animals or plants} spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Out of Sight",
+                    "entries": [
+                        "While in forest terrain, whenver you make a Dexterity ({@skill Stealth}) check, you are considered proficient in the {@skill Stealth} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Tanuki (Raccoon-Dog)",
+            "source": "KuniosGuide",
+            "raceName": "Shapechanger",
+            "raceSource": "KuniosGuide",
+            "page": 41,
+            "ability": [
+                {
+                    "wis": 1
+                }
+            ],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": [
+							"minor illusion"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"ceremony|xge"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"phantasmal force"
+								]
+							}
+						}
+					}
+				}
+			],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A tanuki will typically awaken aroudn age 10, and live as a bakemono for another 200 years. However I have heard tales of tanuki who exceed this lifespan two- or even three-fold."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Money Bags",
+                    "entries": [
+                        "You make your money stretch further. Whenever you make a Charisma ({@skill Persuasian}) check to barter, you are considered proficient in the {@skill Persuasion} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tanuki Magic",
+                    "entries": [
+                        "You know the {@spell minor illusion} cantrip. When you reach 3rd level, you can cast the {@spell ceremony|xge} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell phantasmal force} spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Wait A Minute",
+                    "entries": [
+                        "Whenever you fail a {@skill Deception} or {@skill Performance} check, you can use your reaction to move half your movement speed, without incurring opportunity attacks."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Some interesting fluff",
+                        "entries": [
+                            "This is such a cool race!"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Human Heritage",
+            "source": "KuniosGuide",
+            "raceName": "Half-Oni",
+            "raceSource": "KuniosGuide",
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "skillProficiencies": [
+                {
+                    "any": 1
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your walking speed is 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Skill Proficiency",
+                    "entries": [
+                        "You gain proficiency in one skill of your choice."
+                    ]
+                },
+                {
+					"type": "entries",
+                    "name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic} and one other language of your choice."
+					]
+                }
+            ]
+        },
+        {
+            "name": "Bunagaya Heritage",
+            "source": "KuniosGuide",
+            "raceName": "Half-Oni",
+            "raceSource": "KuniosGuide",
+            "size": [
+                "S"
+            ],
+            "speed": {
+                "walk": 25,
+                "swim": 25,
+                "climb": 25
+            },
+            "weaponProficiencies": [
+                {
+                    "net|phb": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "shisa|KuniosGuide": true
+                }
+            ],
+            "entries": [
+				{
+					"name": "Size",
+					"entries": [
+						"Your size is Small."
+					],
+					"type": "entries"
+				},				{
+					"name": "Brave",
+					"entries": [
+						"You have advantage on saving throws against being {@condition frightened}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"You can move through the space of any creature that is of a size larger than yours."
+					],
+					"type": "entries"
+				},
+                {
+                    "type": "entries",
+                    "name": "Limber",
+                    "entries": [
+                        "You have a swimming speed of 25 feet and a climbing speed of 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Net Positive",
+                    "entries": [
+                        "You have proficiency with {@item net|phb|nets}, and when making an attack with a net, you have advantage on the roll."
+                    ]
+                },
+                {
+					"type": "entries",
+                    "name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic} and {@language Shisa|KuniosGuide}."
+					]
+                }
+            ]
+        },
+        {
+            "name": "Kappa Heritage",
+            "source": "KuniosGuide",
+            "raceName": "Half-Oni",
+            "raceSource": "KuniosGuide",
+            "size": [
+                "S"
+            ],
+            "speed": {
+                "walk": 25,
+                "swim": 25
+            },
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "aquan": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your size is Small."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "You have a walking and swimming speed of 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dish Head",
+                    "entries": [
+                        "Your head crests up into a small dish filled with water. While your head is filled with water, you have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic. Whenever you fail a Dexterity saving throw, the bowl empties, and must be refilled to restore this ability. If you fail the Dexterity saving throw by 5 or more, the bowl empties completely, and you gain a point of {@condition exhaustion}, which can only be removed by refilling the bowl."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Armor",
+                    "entries": [
+                        "Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak {@language Seigai Draconic|KuniosGuide|Draconic} and Aquan."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Korpokkur Heritage",
+            "source": "KuniosGuide",
+            "raceName": "Half-Oni",
+            "raceSource": "KuniosGuide",
+            "size": [
+                "M"
+            ],
+            "speed": 25,
+            "toolProficiencies": [
+                {
+                    "potter's tools": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "kuma|KuniosGuide": true
+                }
+            ],
+            "additionalSpells": [
+                {
+                    "known": {
+                        "1": [
+                            "mold earth|xge"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your walking speed is 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Home Is Where The Hearth Is",
+                    "entries": [
+                        "You know the {@spell mold earth|xge} cantrip and can cast it at will. In addition, you can spend an hour crafting a korpokkur home large enough for 10 medium creatures, provided the ground is earth. A creature you completes a long rest inside this home gains temporary hit points equal to half their level rounded down (minimum 1). You can spend another hour to unmake the home, leaving no trace of you having been there."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Skilled Potter",
+                    "entries": [
+                        "You have proficiency with {@item potter's tools|phb}."
+                    ]
+                },
+				{
+					"type": "entries",
+                    "name": "Languages",
+					"entries": [
+						"You can speak {@language Seigai Draconic|KuniosGuide|Draconic} and {@language Kuma|KuniosGuide}."
+					]
+                }
+            ]
+        },
+        {
+            "name": "Masaru Heritage",
+            "source": "KuniosGuide",
+            "raceName": "Half-Oni",
+            "raceSource": "KuniosGuide",
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 25,
+                "climb": 25
+            },
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "primate|KuniosGuide": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "You have a walking and climbing speed of 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Animal Empathy",
+                    "entries": [
+                        "Whenever you make a Wisdom ({@skill Animal Handling}) check related to primates or tamed animal species, you are considered proficient in the {@skill Animal Handling} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Forager",
+                    "entries": [
+                        "You have advantage on rolls for foraging for food."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Light-Footed and Light-Tailed",
+                    "entries": [
+                        "You have advantage on {@skill Stealth} rolls when you're at a higher elevation than the person/people trying to detect you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Prehensile Tail",
+                    "entries": [
+                        "Your tail is dexterous enough to use basic tools, pick up objects, and hold you hanging from something. Your tail cannot wield weapons or a shield."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write {@language Seigai Draconic|KuniosGuide|Draconic}, and you can speak {@language primate|KuniosGuide}. Primate does not have a written language."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ryuson Heritage",
+            "source": "KuniosGuide",
+            "raceName": "Half-Oni",
+            "raceSource": "KuniosGuide",
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Amphibious",
+                    "entries": [
+						"You can breathe air and water."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Draconic Ancestry",
+                    "entries": [
+                        "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your Godai Spirit Powers are determined by the dragon type, as shown in the table."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Godai Spirit",
+                    "entries": [
+                        "You can cast the cantrip associated with your draconic ancestry at well. When you reach 5th level, you can cast the Seijin Spell associated with your draconic ancestry once with this trait and regain the ability to do so when you finish a long rest. When you reach 11th level, you can cast the Teinen Spell associated with your draconic ancestry once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+                        {
+                            "type": "table",
+                            "caption": "Draconic Ancestry",
+                            "colLabels": [
+                                "Dragon",
+                                "Cantrip",
+                                "Seijin Spell",
+                                "Teinen Spell"
+                            ],
+                            "rows": [
+                                [
+                                    "Earth",
+                                    "{@spell Mold Earth|xge}",
+                                    "{@spell Seijin of Earth|KuniosGuide}",
+                                    "{@spell Investiture of Earth|KuniosGuide}"
+                                ],
+                                [
+                                    "Water",
+                                    "{@spell Shape Water|xge}",
+                                    "{@spell Seijin of Ice|KuniosGuide}",
+                                    "{@spell Investiture of Ice|KuniosGuide}"
+                                ],
+                                [
+                                    "Fire",
+                                    "{@spell Control Flames|xge}",
+                                    "{@spell Seijin of Flames|KuniosGuide}",
+                                    "{@spell Investiture of Flames|KuniosGuide}"
+                                ],
+                                [
+                                    "Air",
+                                    "{@spell Gust|xge}",
+                                    "{@spell Seijin of Wind|KuniosGuide}",
+                                    "{@spell Investiture of Wind|KuniosGuide}"
+                                ],
+                                [
+                                    "Void",
+                                    "{@spell True Strike|phb}",
+                                    "{@spell Seijin of Aether|KuniosGuide}",
+                                    "{@spell Investiture of Aether|KuniosGuide}"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak {@language Seigai Draconic|KuniosGuide|Draconic} and one other language of your choice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shapechanger Heritage",
+            "source": "KuniosGuide",
+            "raceName": "Half-Oni",
+            "raceSource": "KuniosGuide",
+            "size": [
+                "M",
+                "S"
+            ],
+            "speed": 30,
+            "languageProficiencies": [
+                {
+                    "seigai draconic": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "When in humanoid form, you are a Medium creature. When in anthropomorphic form, you are a Small creature."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "When in humanoid or anthropomorphic form, your walking speed is 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bakemono",
+                    "entries": [
+                        "You can use an action to shapeshift into your beast form, into a humanoid, or into an anthropomorphic (semi-humanoid) form halfway between the two. Your appearance in all three forms is hereditary just like any other race, and any equipment you wear in your human form adjusts to the size of your anthropomorphic form. When shifted into your beast form, the following rules apply:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, hit points, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiences, in addition to gaining those of the beast. If the beast has the same proficiency as you and the bonus in its stat block is higher than yours, use the beast's bonus instead of yours.",
+                                "You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as {@spell call lightning|phb}, that you've already cast.",
+                                "You retain the benefit of any features from your class or other sources and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.",
+                                "You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak {@language Seigai Draconic|KuniosGuide|Draconic} and one other language of your choice."
+                    ]
+                }
+            ]
+        }
+    ]
+}
