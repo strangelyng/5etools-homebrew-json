@@ -2849,15 +2849,10 @@
                         "items": {
                             "type": "entries",
                             "name": "Earth Dragons",
-                            "entries": {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
-                                        "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
-                                    ]
-                                }
-                            }
+                            "entries": [
+                                    "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
+                                    "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
+                            ]
                         }
                     }
                 }
@@ -2875,16 +2870,11 @@
                         "items": {
                             "type": "entries",
                             "name": "Water Dragons",
-                            "entries": {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
-                                        "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
-                                        "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
-                                    ]
-                                }
-                            }
+                            "entries": [
+                                "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
+                                "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
+                                "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
+                            ]
                         }
                     }
                 }
@@ -2902,15 +2892,10 @@
                         "items": {
                             "type": "entries",
                             "name": "Fire Dragons",
-                            "entries": {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "The first Fire dragon was born of the kami Shōjō-sama, who did not survive the labor. The newborn was given the name Kanushi-sama, meaning the “Lord of Fire”, and later slain in retribution.",
-                                        "Kanushi-sama’s offspring are rarely seen, other than around volcanic eruptions, such as the centennial eruption of Mount Yamabi. When they do appear, karyū are often mistaken for the ho-o at a distance, so they are often treated interchangeably in folk tales."
-                                    ]
-                                }
-                            }
+                            "entries": [
+                                "The first Fire dragon was born of the kami Shōjō-sama, who did not survive the labor. The newborn was given the name Kanushi-sama, meaning the “Lord of Fire”, and later slain in retribution.",
+                                "Kanushi-sama’s offspring are rarely seen, other than around volcanic eruptions, such as the centennial eruption of Mount Yamabi. When they do appear, karyū are often mistaken for the ho-o at a distance, so they are often treated interchangeably in folk tales."
+                            ]
                         }
                     }
                 }
@@ -2928,16 +2913,11 @@
                         "items": {
                             "type": "entries",
                             "name": "Air Dragons",
-                            "entries": {
-                                {
-                                    "type": "entries",
-                                    "entries": [
+                            "entries": [
                                         "While all ō-ryū can fly, none take to the sky quite as elegantly as the fūryū—the Air dragons. I once saw a young fūryū over the mountains near Shikashi; the creature twirled through the sky like a ribbon. From a distance I could still observe the white-lilac scales and flowing silver hair, and I was moved to tears.",
                                         "Not long after, I was standing out in the cold rain, soaked to the skin. Air dragons are often found riding the winds of a storm front.",
                                         "The ancestor of the Air dragons, Fūnushi-sama, was emerged from the blood of Kanushi-sama as it pooled in Shōdan-sama’s clenched sword-hand. They are known as the “Lord of Rain and Snow”, and is especially called upon by the Seiganese people during seasons of drought."
-                                    ]
-                                }
-                            }
+                            ]
                         }
                     }
                 }
@@ -2955,15 +2935,10 @@
                         "items": {
                             "type": "entries",
                             "name": "Void Dragons",
-                            "entries": {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "Of all the ō-ryū, the least is understood about the Void dragons, or kūryū in Seiganese. They are native to the land of the kami, rarely interacting with our world. Their presence seems to disrupt the weave, causing sonon to dissipate into silence.",
-                                        "Kūnushi-sama is one of the four celestial guardians of Seigai, visible in the night sky to the East. When the moon is in Kūnushi-sama’s Heart Mansion, the Seiganese people hold a festival called Kūmatsuri in honor of their silent protector."
-                                    ]
-                                }
-                            }
+                            "entries": [
+                                "Of all the ō-ryū, the least is understood about the Void dragons, or kūryū in Seiganese. They are native to the land of the kami, rarely interacting with our world. Their presence seems to disrupt the weave, causing sonon to dissipate into silence.",
+                                "Kūnushi-sama is one of the four celestial guardians of Seigai, visible in the night sky to the East. When the moon is in Kūnushi-sama’s Heart Mansion, the Seiganese people hold a festival called Kūmatsuri in honor of their silent protector."
+                            ]
                         }
                     }
                 }
