@@ -19,7 +19,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1721086709
+        "dateLastModified": 1721128952
     },
 
     "language": [
@@ -1974,7 +1974,7 @@
                     "items": [
                         "You are immune to thunder damage and have resistance to force damage.",
                         "You create an aura of silence centered on you with a radius of 20 feet. While inside the radius, all creatures other than yourself are unable to cast spells with a vibration component, and they are {@condition deafened} until they leave the aura.",
-                        "*You can use your action to unleash a wave of sonon energy. Each creature of your choice within your aura of silence must make a Constitution saving throw. A creature takes {@damage 3d6} thunder damage on a failed save, or half as much damage on a successful one."
+                        "You can use your action to unleash a wave of sonon energy. Each creature of your choice within your aura of silence must make a Constitution saving throw. A creature takes {@damage 3d6} thunder damage on a failed save, or half as much damage on a successful one."
                     ]
                 }
             ],
@@ -2455,9 +2455,6 @@
                                     "Sō",
                                     "Ken Blessing"
                                 ]
-                            ],
-                            "footnotes": [
-                                "Optional Footer"
                             ]
                         }
                     ]
@@ -2534,7 +2531,7 @@
             ]
         },
         {
-            "name": "Spirit  Fox",
+            "name": "Spirit Fox",
             "source": "KuniosGuide",
             "page": 48,
             "prerequisite": [
@@ -2580,6 +2577,7 @@
             ],
             "type": "humanoid",
             "source": "KuniosGuide",
+            "page": 59,
             "alignment": [
                 "C",
                 "N"
@@ -2609,7 +2607,6 @@
             "cha": 5,
             "passive": 8,
             "cr": "1/2",
-            "page": 59,
             "senses": [
                 "darkvision 120 ft."
             ],
@@ -2670,6 +2667,7 @@
             ],
             "type": "celestial",
             "source": "KuniosGuide",
+            "page": 59,
             "alignment": [
                 "L",
                 "G"
@@ -2697,7 +2695,6 @@
             "cha": 19,
             "passive": 16,
             "cr": "7",
-            "page": 59,
             "senses": [
                 "truesight 20 ft."
             ],
@@ -2829,153 +2826,13 @@
             ]
         },
         {
-            "name": "Ō-Ryū",
-            "source": "KuniosGuide",
-            "entries": [
-                "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
-                "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
-                "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
-            ]
-        },
-        {
-            "name": "Earth Dragons",
-            "source": "KuniosGuide",
-            "_copy": {
-                "name": "Ō-Ryū",
-                "source": "KuniosGuide",
-                "_mod": {
-                    "entries": {
-                        "mode": "prependArr",
-                        "items": {
-                            "type": "entries",
-                            "name": "Earth Dragons",
-                            "entries" {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
-                                        "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "name": "Water Dragons",
-            "source": "KuniosGuide",
-            "_copy": {
-                "name": "Ō-Ryū",
-                "source": "KuniosGuide",
-                "_mod": {
-                    "entries": {
-                        "mode": "prependArr",
-                        "items": {
-                            "type": "entries",
-                            "name": "Water Dragons",
-                            "entries" {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
-                                        "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
-                                        "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "name": "Fire Dragons",
-            "source": "KuniosGuide",
-            "_copy": {
-                "name": "Ō-Ryū",
-                "source": "KuniosGuide",
-                "_mod": {
-                    "entries": {
-                        "mode": "prependArr",
-                        "items": {
-                            "type": "entries",
-                            "name": "Fire Dragons",
-                            "entries" {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "The first Fire dragon was born of the kami Shōjō-sama, who did not survive the labor. The newborn was given the name Kanushi-sama, meaning the “Lord of Fire”, and later slain in retribution.",
-                                        "Kanushi-sama’s offspring are rarely seen, other than around volcanic eruptions, such as the centennial eruption of Mount Yamabi. When they do appear, karyū are often mistaken for the ho-o at a distance, so they are often treated interchangeably in folk tales."
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "name": "Air Dragons",
-            "source": "KuniosGuide",
-            "_copy": {
-                "name": "Ō-Ryū",
-                "source": "KuniosGuide",
-                "_mod": {
-                    "entries": {
-                        "mode": "prependArr",
-                        "items": {
-                            "type": "entries",
-                            "name": "Air Dragons",
-                            "entries" {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "While all ō-ryū can fly, none take to the sky quite as elegantly as the fūryū—the Air dragons. I once saw a young fūryū over the mountains near Shikashi; the creature twirled through the sky like a ribbon. From a distance I could still observe the white-lilac scales and flowing silver hair, and I was moved to tears.",
-                                        "Not long after, I was standing out in the cold rain, soaked to the skin. Air dragons are often found riding the winds of a storm front.",
-                                        "The ancestor of the Air dragons, Fūnushi-sama, was emerged from the blood of Kanushi-sama as it pooled in Shōdan-sama’s clenched sword-hand. They are known as the “Lord of Rain and Snow”, and is especially called upon by the Seiganese people during seasons of drought."
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "name": "Void Dragons",
-            "source": "KuniosGuide",
-            "_copy": {
-                "name": "Ō-Ryū",
-                "source": "KuniosGuide",
-                "_mod": {
-                    "entries": {
-                        "mode": "prependArr",
-                        "items": {
-                            "type": "entries",
-                            "name": "Void Dragons",
-                            "entries" {
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "Of all the ō-ryū, the least is understood about the Void dragons, or kūryū in Seiganese. They are native to the land of the kami, rarely interacting with our world. Their presence seems to disrupt the weave, causing sonon to dissipate into silence.",
-                                        "Kūnushi-sama is one of the four celestial guardians of Seigai, visible in the night sky to the East. When the moon is in Kūnushi-sama’s Heart Mansion, the Seiganese people hold a festival called Kūmatsuri in honor of their silent protector."
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
             "name": "Carp Dragon",
             "size": [
                 "M"
             ],
             "type": "dragon",
             "source": "KuniosGuide",
+            "page": 60,
             "alignment": [
                 "C",
                 "N"
@@ -3006,10 +2863,9 @@
             "group": [
                 "Ō-Ryū"
             ],
-            "page": 60,
             "languages": [
-                "Seigai Draconic|KuniosGuide",
-                "Kami|KuniosGuide"
+                "Seigai Draconic",
+                "Kami"
             ],
             "senses": [
                 "blindsight 10 ft.",
@@ -3055,9 +2911,13 @@
             "miscTags": [
                 "MW"
             ],
-            "_copy": {
-                "name": "Ō-Ryū",
-                "source": "KuniosGuide"
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                    "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                    "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+                ]
             }
         },
         {
@@ -3067,6 +2927,7 @@
             ],
             "type": "dragon",
             "source": "KuniosGuide",
+            "page": 61,
             "alignment": [
                 "C",
                 "N"
@@ -3099,11 +2960,10 @@
             "group": [
                 "Ō-Ryū"
             ],
-            "page": "61",
             "dragonAge": "young",
             "languages": [
-                "Seigai Draconic|KuniosGuide",
-                "Kami|KuniosGuide"
+                "Seigai Draconic",
+                "Kami"
             ],
             "senses": [
                 "blindsight 30 ft.",
@@ -3191,9 +3051,26 @@
             "savingThrowForcedSpell": [
                 "dexterity"
             ],
-            "_copy": {
-                "name": "Earth Dragons",
-                "source": "KuniosGuide"
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Earth Dragons",
+                        "entries": [
+                            "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
+                            "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
+                        ]
+                    }
+                ]
             }
         },
         {
@@ -3203,6 +3080,7 @@
             ],
             "type": "dragon",
             "source": "KuniosGuide",
+            "page": 61,
             "alignment": [
                 "C",
                 "N"
@@ -3237,8 +3115,8 @@
             ],
             "dragonAge": "adult",
             "languages": [
-                "Seigai Draconic|KuniosGuide",
-                "Kami|KuniosGuide"
+                "Seigai Draconic",
+                "Kami"
             ],
             "senses": [
                 "blindsight 60 ft.",
@@ -3334,7 +3212,6 @@
                 "Amphibious",
                 "Legendary Resistances"
             ],
-            "page": 61,
             "miscTags": [
                 "MW",
                 "RCH"
@@ -3356,7 +3233,7 @@
                 {
                     "name": "Constrict (Costs 2 Actions)",
                     "entries": [
-                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
                     ]
                 }
             ],
@@ -3379,9 +3256,26 @@
             "savingThrowForcedSpell": [
                 "dexterity"
             ],
-            "_copy" {
-                "name": "Earth Dragons",
-                "source": "KuniosGuide"
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Earth Dragons",
+                        "entries": [
+                            "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
+                            "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
+                        ]
+                    }
+                ]
             }
         },
         {
@@ -3391,6 +3285,7 @@
             ],
             "type": "dragon",
             "source": "KuniosGuide",
+            "page": 62,
             "alignment": [
                 "C",
                 "N"
@@ -3425,8 +3320,8 @@
             ],
             "dragonAge": "ancient",
             "languages": [
-                "Seigai Draconic|KuniosGuide",
-                "Kami|KuniosGuide"
+                "Seigai Draconic",
+                "Kami"
             ],
             "senses": [
                 "blindsight 60 ft.",
@@ -3533,7 +3428,6 @@
                 "Amphibious",
                 "Legendary Resistances"
             ],
-            "page": 62,
             "miscTags": [
                 "MW",
                 "RCH"
@@ -3555,7 +3449,7 @@
                 {
                     "name": "Constrict (Costs 2 Actions)",
                     "entries": [
-                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 23}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 23}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
                     ]
                 }
             ],
@@ -3579,9 +3473,618 @@
                 "constitution",
                 "dexterity"
             ],
-            "_copy": {
-                "name": "Earth Dragons",
-                "source": "KuniosGuide"
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Earth Dragons",
+                        "entries": [
+                            "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
+                            "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Young Water Dragon",
+            "size": [
+                "L"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 62,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "14d10 + 42",
+                "average": 119
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 60,
+                "swim": 90
+            },
+            "str": 17,
+            "dex": 13,
+            "con": 16,
+            "int": 12,
+            "wis": 15,
+            "cha": 19,
+            "passive": 15,
+            "cr": "7",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "dragonAge": "young",
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+6",
+                "dex": "+4",
+                "con": "+6",
+                "cha": "+7"
+            },
+            "skill": {
+                "perception": "+5",
+                "persuasion": "+7",
+                "stealth": "+4"
+            },
+            "immune": [
+                "cold"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 15}, +7 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell seijin of ice|KuniosGuide}",
+                        "{@spell shape water|XGE}",
+                        "{@spell wall of ice}",
+                        "{@spell wall of water|XGE}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell investiture of ice|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and one claw attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d10 + 3}) piercing damage, plus 3 ({@damage 1d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "damageTags": [
+                "B",
+                "C",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "C"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "dexterity"
+            ],
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+                            ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Water Dragons",
+                        "entries": [
+                            "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
+                            "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
+                            "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Adult Water Dragon",
+            "size": [
+                "H"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 63,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "16d12 + 64",
+                "average": 168
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 90,
+                "swim": 90
+            },
+            "str": 21,
+            "dex": 15,
+            "con": 18,
+            "int": 12,
+            "wis": 17,
+            "cha": 23,
+            "passive": 18,
+            "cr": "14",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "dragonAge": "adult",
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+10",
+                "dex": "+7",
+                "con": "+9",
+                "cha": "+11"
+            },
+            "skill": {
+                "perception": "+8",
+                "persuasion": "+11",
+                "stealth": "+7",
+                "history": "+6"
+            },
+            "immune": [
+                "cold"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 19}, +11 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell seijin of ice|KuniosGuide}",
+                        "{@spell shape water|XGE}",
+                        "{@spell wall of ice}",
+                        "{@spell wall of water|XGE}"
+                    ],
+                    "daily": {
+                        "3": [
+                            "{@spell control water}",
+                            "{@spell investiture of ice|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, plus 3 ({@damage 1d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target.."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "damageTags": [
+                "B",
+                "C",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "B",
+                "C"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "dexterity",
+                "strength"
+            ],
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+                            ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Water Dragons",
+                        "entries": [
+                            "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
+                            "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
+                            "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ancient Water Dragon",
+            "size": [
+                "G"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 63,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 23,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "20d20 + 100",
+                "average": 310
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 90,
+                "swim": 90
+            },
+            "str": 25,
+            "dex": 17,
+            "con": 20,
+            "int": 12,
+            "wis": 19,
+            "cha": 27,
+            "passive": 21,
+            "cr": "21",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "dragonAge": "ancient",
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+14",
+                "dex": "+10",
+                "con": "+12",
+                "cha": "+15"
+            },
+            "skill": {
+                "perception": "+11",
+                "persuasion": "+15",
+                "stealth": "+10",
+                "history": "+8"
+            },
+            "immune": [
+                "cold"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 23}, +15 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell seijin of ice|KuniosGuide}",
+                        "{@spell shape water|XGE}",
+                        "{@spell wall of ice}",
+                        "{@spell wall of water|XGE}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell tsunami}"
+                        ],
+                        "3": [
+                            "{@spell control water}",
+                            "{@spell investiture of ice|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}18 ({@damage 2d10 + 7}) piercing damage, plus 3 ({@damage 1d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 7}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Change Shape",
+                    "entries": [
+                        "The dragon magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+                        "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or",
+                        "legendary actions of that form."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack",
+                "Shapechanger"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 10 ft., one creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target.."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "damageTags": [
+                "B",
+                "C",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "B",
+                "C"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "dexterity",
+                "strength"
+            ],
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+                            ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Water Dragons",
+                        "entries": [
+                            "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
+                            "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
+                            "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
+                        ]
+                    }
+                ]
             }
         }
     ]
