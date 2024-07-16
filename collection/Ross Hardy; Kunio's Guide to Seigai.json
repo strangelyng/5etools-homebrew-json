@@ -70,6 +70,23 @@
                 "Primates",
                 "Masaru"
             ]
+        },
+        {
+            "name": "Kami",
+            "source": "KuniosGuide",
+            "type": "exotic",
+            "typicalSpeakers": [
+                "Kami",
+                "Ō-Ryū"
+            ]
+        },
+        {
+            "name": "Oni",
+            "source": "KuniosGuide",
+            "type": "exotic",
+            "typicalSpeakers": [
+                "Oni"
+            ]
         }
     ],
 
@@ -77,10 +94,10 @@
         {
             "name": "Shōjō-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "C",
-                "NY"
+                "N"
             ],
             "title": "The Female-Who-Invites",
             "domains": [
@@ -88,16 +105,16 @@
                 "Death"
             ],
             "entries": [
-                "Among the first deities. With her husband {@deity Shōdan-sama|seigai kami|KuniosGuide}, created the land of Seigai, and birthed the rest of the kami."
+                "Among the first deities. With her husband {@deity Shōdan-sama|Seigai Kami|KuniosGuide}, created the land of Seigai, and birthed the rest of the kami."
             ]
         },
         {
             "name": "Shōdan-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "L",
-                "NY"
+                "N"
             ],
             "title": "The Male-Who-Invites",
             "domains": [
@@ -105,16 +122,16 @@
                 "Nature"
             ],
             "entries": [
-                "Among the first deities. With his wife {@deity Shōjō-sama|seigai kami|KuniosGuide}, created the land of Seigai, and sired the rest of the kami."
+                "Among the first deities. With his wife {@deity Shōjō-sama|Seigai Kami|KuniosGuide}, created the land of Seigai, and sired the rest of the kami."
             ]
         },
         {
             "name": "Tenshō-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "L",
-                "NY"
+                "N"
             ],
             "title": "The Heavenly-Shining-Great-August-Deity",
             "domains": [
@@ -128,10 +145,9 @@
         {
             "name": "Tsuki-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
-                "NX",
-                "NY"
+                "N"
             ],
             "title": "Moon-Night Possessor",
             "altNames": [
@@ -142,16 +158,16 @@
                 "Light"
             ],
             "entries": [
-                "A brother of {@deity Tenshō-sama|seigai kami|KuniosGuide}, and governs the light of the moon. He and Tenshō-sama have an ancient quarrel, hence they are in different parts of the sky."
+                "A brother of {@deity Tenshō-sama|Seigai Kami|KuniosGuide}, and governs the light of the moon. He and Tenshō-sama have an ancient quarrel, hence they are in different parts of the sky."
             ]
         },
         {
             "name": "Ran-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "C",
-                "NY"
+                "N"
             ],
             "title": "His-Swift-Impetuous-Male-Augustness",
             "domains": [
@@ -159,16 +175,16 @@
                 "Trickery"
             ],
             "entries": [
-                "Another brother of {@deity Tenshō-sama|seigai kami|KuniosGuide}, and also in conflict with her. Through his cunning, Ran-sama slew Chinushi-sama, giving rise to the chinushi-zu."
+                "Another brother of {@deity Tenshō-sama|Seigai Kami|KuniosGuide}, and also in conflict with her. Through his cunning, Ran-sama slew Chinushi-sama, giving rise to the chinushi-zu."
             ]
         },
         {
             "name": "Inga-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "C",
-                "NY"
+                "N"
             ],
             "title": "Heavenly-Alarming-Female",
             "altNames": [
@@ -179,16 +195,16 @@
                 "Unity"
             ],
             "entries": [
-                "The goddess of the dawn and revelry. When {@deity Tenshō-sama|seigai kami|KuniosGuide} once went into hiding, Inga-sama made the other kami laugh so much that Tenshō-sama came out of hiding to see what the commotion was about."
+                "The goddess of the dawn and revelry. When {@deity Tenshō-sama|Seigai Kami|KuniosGuide} once went into hiding, Inga-sama made the other kami laugh so much that Tenshō-sama came out of hiding to see what the commotion was about."
             ]
         },
         {
             "name": "Kaze-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "C",
-                "NY"
+                "N"
             ],
             "title": "The Prince-of-Long-Wind",
             "domains": [
@@ -196,16 +212,15 @@
                 "Arcana"
             ],
             "entries": [
-                "The god of the wind, and often paired with {@deity Kaminari-sama|seigai kami|KuniosGuide} in holy places. Kaze-sama has a terrifying green-skinned appearance and carries a bag of wind around his shoulders."
+                "The god of the wind, and often paired with {@deity Kaminari-sama|Seigai Kami|KuniosGuide} in holy places. Kaze-sama has a terrifying green-skinned appearance and carries a bag of wind around his shoulders."
             ]
         },
         {
             "name": "Kaminari-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
-                "NX",
-                "NY"
+                "N"
             ],
             "title": "The Eight Thunder-Deities",
             "domains": [
@@ -213,16 +228,16 @@
                 "Nature"
             ],
             "entries": [
-                "The god of storms, and often paired with {@deity Kaze-sama|seigai kami|KuniosGuide} in holy places. Kaminari-sama has a similarly terrifying appearance, and carries with him the taiko drums of thunder."
+                "The god of storms, and often paired with {@deity Kaze-sama|Seigai Kami|KuniosGuide} in holy places. Kaminari-sama has a similarly terrifying appearance, and carries with him the taiko drums of thunder."
             ]
         },
         {
             "name": "Yōnō-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "C",
-                "NY"
+                "N"
             ],
             "domains": [
                 "Nature",
@@ -235,10 +250,9 @@
         {
             "name": "Bushi-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
-                "NX",
-                "NY"
+                "N"
             ],
             "title": "The Eight-Banners-Deity",
             "domains": [
@@ -252,10 +266,10 @@
         {
             "name": "Kanushi-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "C",
-                "NY"
+                "N"
             ],
             "title": "The Shining-Elder",
             "domains": [
@@ -263,16 +277,16 @@
                 "Death"
             ],
             "entries": [
-                "The kami of fire. The trauma of giving birth to Kanushi-sama killed {@deity Shōjō-sama|seigai kami|KuniosGuide}, which sent her to the underworld."
+                "The kami of fire. The trauma of giving birth to Kanushi-sama killed {@deity Shōjō-sama|Seigai Kami|KuniosGuide}, which sent her to the underworld."
             ]
         },
         {
             "name": "Sōbai-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "L",
-                "NY"
+                "N"
             ],
             "title": "The Many-Minds'-Thought-Combining Deity",
             "domains": [
@@ -286,10 +300,10 @@
         {
             "name": "Mizu-sama",
             "source": "KuniosGuide",
-            "pantheon": "seigai kami",
+            "pantheon": "Seigai Kami",
             "alignment": [
                 "C",
-                "NY"
+                "N"
             ],
             "domains": [
                 "Nature",
@@ -688,29 +702,29 @@
                                     "Earth",
                                     "Constitution",
                                     "{@spell Mold Earth|xge}",
-                                    "{@spell Seijin of Earth|KuniosGuide}",
-                                    "{@spell Investiture of Earth|KuniosGuide}"
+                                    "{@spell Seijin of Stone|KuniosGuide}",
+                                    "{@spell Investiture of Stone|xge}"
                                 ],
                                 [
                                     "Water",
                                     "Wisdom",
                                     "{@spell Shape Water|xge}",
                                     "{@spell Seijin of Ice|KuniosGuide}",
-                                    "{@spell Investiture of Ice|KuniosGuide}"
+                                    "{@spell Investiture of Ice|xge}"
                                 ],
                                 [
                                     "Fire",
                                     "Strength",
                                     "{@spell Control Flames|xge}",
-                                    "{@spell Seijin of Flames|KuniosGuide}",
-                                    "{@spell Investiture of Flames|KuniosGuide}"
+                                    "{@spell Seijin of Flame|KuniosGuide}",
+                                    "{@spell Investiture of Flame|xge}"
                                 ],
                                 [
                                     "Air",
                                     "Dexterity",
                                     "{@spell Gust|xge}",
                                     "{@spell Seijin of Wind|KuniosGuide}",
-                                    "{@spell Investiture of Wind|KuniosGuide}"
+                                    "{@spell Investiture of Wind|xge}"
                                 ],
                                 [
                                     "Void",
@@ -759,7 +773,7 @@
                         "type": "entries",
                         "name": "Fire Dragonborn",
                         "entries": [
-                            "Fire dragonborn (kason) are connected to the kami of fire, {@deity Kanushi-sama|seigai kami|KuniosGuide}, who himself was born from {@deity Shōjō-sama|seigai kami|KuniosGuide}, killing her in the process. Their skin color is coal-black. Their body temperature is warmer than other creatures—you would be wise not to offer your hand to a fire dragonborn without a protective glove."
+                            "Fire dragonborn (kason) are connected to the kami of fire, {@deity Kanushi-sama|Seigai Kami|KuniosGuide}, who himself was born from {@deity Shōjō-sama|Seigai Kami|KuniosGuide}, killing her in the process. Their skin color is coal-black. Their body temperature is warmer than other creatures—you would be wise not to offer your hand to a fire dragonborn without a protective glove."
                         ]
                     },
                     {
@@ -1259,7 +1273,7 @@
                     {
                         "type": "entries",
                         "entries": [
-                            "There is a special reverence for foxes among the people of Seigai. They are often thought of as the messengers of the kami, particularly {@deity Yōnō-sama|seigai kami|KuniosGuide}. However, the kami do not always bring good tidings. The Seigai people can be quite superstitious, and if a person appears too cunning, they may be accused of being a kitsune bringing a bad omen. Of all the shapechangers, kitsune are the most adept at hiding their true nature."
+                            "There is a special reverence for foxes among the people of Seigai. They are often thought of as the messengers of the kami, particularly {@deity Yōnō-sama|Seigai Kami|KuniosGuide}. However, the kami do not always bring good tidings. The Seigai people can be quite superstitious, and if a person appears too cunning, they may be accused of being a kitsune bringing a bad omen. Of all the shapechangers, kitsune are the most adept at hiding their true nature."
                         ]
                     }
                 ]
@@ -1801,26 +1815,26 @@
                                 [
                                     "Earth",
                                     "{@spell Mold Earth|xge}",
-                                    "{@spell Seijin of Earth|KuniosGuide}",
-                                    "{@spell Investiture of Earth|KuniosGuide}"
+                                    "{@spell Seijin of Stone|KuniosGuide}",
+                                    "{@spell Investiture of Stone|xge}"
                                 ],
                                 [
                                     "Water",
                                     "{@spell Shape Water|xge}",
                                     "{@spell Seijin of Ice|KuniosGuide}",
-                                    "{@spell Investiture of Ice|KuniosGuide}"
+                                    "{@spell Investiture of Ice|xge}"
                                 ],
                                 [
                                     "Fire",
                                     "{@spell Control Flames|xge}",
-                                    "{@spell Seijin of Flames|KuniosGuide}",
-                                    "{@spell Investiture of Flames|KuniosGuide}"
+                                    "{@spell Seijin of Flame|KuniosGuide}",
+                                    "{@spell Investiture of Flame|xge}"
                                 ],
                                 [
                                     "Air",
                                     "{@spell Gust|xge}",
                                     "{@spell Seijin of Wind|KuniosGuide}",
-                                    "{@spell Investiture of Wind|KuniosGuide}"
+                                    "{@spell Investiture of Wind|xge}"
                                 ],
                                 [
                                     "Void",
@@ -1896,6 +1910,1679 @@
                     ]
                 }
             ]
+        }
+    ],
+
+    "spell": [
+        {
+            "name": "Investiture of Aether",
+            "source": "KuniosGuide",
+            "page": 76,
+            "level": 6,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "The air around you stills as you command complete control of the aether. Until the spell ends, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You are immune to thunder damage and have resistance to force damage.",
+                        "You create an aura of silence centered on you with a radius of 20 feet. While inside the radius, all creatures other than yourself are unable to cast spells with a vibration component, and they are {@condition deafened} until they leave the aura.",
+                        "*You can use your action to unleash a wave of sonon energy. Each creature of your choice within your aura of silence must make a Constitution saving throw. A creature takes {@damage 3d6} thunder damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "thunder"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "areaTags": [
+                "S"
+            ]
+        },
+        {
+            "name": "Seijin of Aether",
+            "source": "KuniosGuide",
+            "page": 76,
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "The air around you stills as you command complete control of the aether. Until the spell ends, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You are resistant to thunder damage.",
+                        "Until the spell ends, any attack you make deals {@dice 2d6} extra thunder damage when you hit a creature within 10 feet of you"
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "thunder"
+            ],
+            "miscTags": [
+                "AAD"
+            ]
+        },
+        {
+            "name": "Seijin of Flame",
+            "source": "KuniosGuide",
+            "page": 76,
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "Flames race across your body, shedding bright light in a 15-foot radius and dim light for an additional 15 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You are resistant to fire damage.",
+                        "Until the spell ends, any attack you make deals {@dice 2d6} extra fire damage when you hit a creature within 10 feet of you"
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "miscTags": [
+                "AAD",
+                "LGT"
+            ]
+        },
+        {
+            "name": "Seijin of Ice",
+            "source": "KuniosGuide",
+            "page": 76,
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "Until the spell ends, ice rimes your body, and you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You are resistant to cold damage.",
+                        "Until the spell ends, any attack you make deals {@dice 2d6} extra cold damage when you hit a creature within 10 feet of you"
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "cold"
+            ],
+            "miscTags": [
+                "AAD"
+            ]
+        },
+        {
+            "name": "Seijin of Stone",
+            "source": "KuniosGuide",
+            "page": 76,
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "Until the spell ends, bits of rock spread across your body, and you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You can use your action to create a small earthquake on the ground in a 5-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked {@condition prone}.",
+                        "Until the spell ends, any attack you make deals {@dice 2d6} extra bludgeoning damage when you hit a creature within 10 feet of you"
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ],
+            "miscTags": [
+                "AAD"
+            ]
+        },
+        {
+            "name": "Seijin of Wind",
+            "source": "KuniosGuide",
+            "page": 76,
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "Until the spell ends, wind whirls around you, and you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Ranged weapon attacks made against you have disadvantage on the attack roll.",
+                        "Until the spell ends, any attack you make deals {@dice 2d6} extra slashing damage when you hit a creature within 10 feet of you"
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "slashing"
+            ],
+            "miscTags": [
+                "AAD"
+            ]
+        }
+    ],
+
+    "feat": [
+        {
+            "name": "Sonon Mastery",
+            "source": "KuniosGuide",
+            "page": 47,
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    },
+                    "hidden": true
+                }
+            ],
+            "entries": [
+                "You have proven your ability to the gatekeepers of sonon. You have been entrusted with a secret sonon word that would destroy anyone not strong enough to utter it. Knowledge of this word has enhanced one of your skills. Increase the skill of your choice according to the table below by 1, to a maximum of 20, to represent this enhancement.",
+                {
+                    "type": "entries",
+                    "name": "Sonon Ability",
+                    "entries": [
+                        "You gain one of the following abilities, corresponding to the sonon word you learned. The starting size of the Sonon die used by these abilities is a d6.",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Rī Strike",
+                                    "entries": [
+                                        "Once on each of your turns when you hit with an attack roll, you can roll your Sonon die after you make the damage roll and add it to the total damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Shu Incantation",
+                                    "entries": [
+                                        "Whenever you make a spellattack, you can roll your Sonon die and add the number rolled to the attack roll. You can choose to do so before or after rolling the d20, but before you know whether the attack hit."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Kan Technique",
+                                    "entries": [
+                                        "Whenever you make a skill check for a skill you are proficient in, you can roll your Sonon die and add the number rolled to the check. You can choose to do so before or after rolling the d20, but before you know whether the check succeeded."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Ken Blessing",
+                                    "entries": [
+                                        "Whenever you or an ally within 30 feet makes a saving throw, you can use your reaction to roll your Sonon die and add the number rolled to the saving throw. You can choose to do so before or after rolling the d20, but before you know whether the saving throw succeeded."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Changing the Die's Size",
+                            "entries": [
+                                "When you roll your Sonon die, it decreases by one die size after the roll. This represents you burning through your Sonon energy. For example, if the die is a d6, it becomes a d4. The minimum die size is a d4.",
+                                "If you roll a 1 on your Sonon die, you are overwhelmed by the force of the Sonon flowing through you, and you take psychic damage equal to the maximum roll of the Sonon die. The die then shrinks to a d4.",
+                                "Whenever you finish a long rest, your Sonon die resets to its starting size. When you reach certain levels, the starting size of your Sonon die increases: at 5th level (d8), 11th level (d10), and 17th level (d12). If you take the Sonon Mastery feat more than one time, you don’t get more than one die."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Sonon Replenishment",
+                            "entries": [
+                                "As a bonus action, you can calm your mind for a moment and restore your Sonon die to its starting size. You then can’t use Sonon Replenishment again until you finish a long rest"
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Sonon Word",
+                                "Ability Score Increase",
+                                "Available to",
+                                "Grants"
+                            ],
+                            "rows": [
+                                [
+                                    "Rī",
+                                    "Strength or Constitution",
+                                    "Bushi",
+                                    "Rī Strike"
+                                ],
+                                [
+                                    "Shu",
+                                    "Intelligence or Charisma",
+                                    "Madōshi",
+                                    "Shu Incantation"
+                                ],
+                                [
+                                    "Kan",
+                                    "Dexterity or Charisma",
+                                    "Meijin",
+                                    "Kan Technique"
+                                ],
+                                [
+                                    "Ken",
+                                    "Dexterity or Wisdom",
+                                    "Sō",
+                                    "Ken Blessing"
+                                ]
+                            ],
+                            "footnotes": [
+                                "Optional Footer"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bayashi",
+            "source": "KuniosGuide",
+            "page": 48,
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Shapechanger",
+                            "subrace": "Tanuki (Raccoon-Dog)"
+                        }
+                    ]
+                },
+                {
+                    "level": 5
+                }
+            ],
+            "ability": [
+                {
+                    "cha": 1
+                }
+            ],
+            "entries": [
+                "You have become an expert of mischievous illusion, continuing the ancestral line of legendary tanuki.",
+                {
+					"type": "list",
+					"items": [
+						"When you cast {@spell phantasmal force} with your Tanuki Magic racial ability, you can instead drum on your belly as the somatic component of the spell, to create an illusion known as bayashi. When casting {@spell phantasmal force} in this way, the illusion you create has no visual appearance; instead, you create the sound of ghostly drumming at a location of your choice within 60 feet. As a bonus action on your turn, you can move the locationg of the illusion up ot 20 feet.."
+					]
+				}
+            ]
+        },
+        {
+            "name": "Nopperabō",
+            "source": "KuniosGuide",
+            "page": 48,
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Shapechanger"
+                        }
+                    ]
+                }
+            ],
+            "additionalSpells": [
+                {
+                    "innate": {
+                        "_": {
+                            "daily": {
+                                "1e": [
+                                    "disguise self"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You have mastered shapechanging, to the point where you have some control over the form you assume.",
+                {
+					"type": "list",
+					"items": [
+						"You learn the {@spell disguise self} spell and can cast it a number of times equal to your Charisma modifier, regaining any expended uses when you finish a long rest.",
+                        "While in your humanoid form, you can use an action to temporarily take the appearance of a nopperabō, a humanoid with no facial features. Each creature of your choice within 30 feet of you must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can’t see you. On a failed save, a target becomes {@condition frightened} of you for 1 minute, or until you dispel your nopperabō appearance with a bonus action (whichever occurs first). If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success. Once you have used this ability, you are unable to use it again until you have finished a short or long rest."
+					]
+				}
+            ]
+        },
+        {
+            "name": "Spirit  Fox",
+            "source": "KuniosGuide",
+            "page": 48,
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Shapechanger",
+                            "subrace": "Kitsune (Fox)"
+                        }
+                    ]
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "As kitsune age and garner experience, they can ascend up the ranks of the kitsune, becoming a spiritual being. You have lived many years and have been granted a rank on the first rung of the spiritual ladder, known as kiko.",
+                {
+					"type": "list",
+					"items": [
+						"Your creature type is celestial.",
+                        "You grow an additional tail, up ot a maximum of nine tails."
+					]
+				}
+            ]
+        }
+    ],
+
+    "monster": [
+        {
+            "name": "Filthlicker",
+            "size": [
+                "S"
+            ],
+            "type": "humanoid",
+            "source": "KuniosGuide",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "4d6 - 4",
+                "average": 10
+            },
+            "speed": {
+                "walk": 35,
+                "swim": 20,
+                "climb": 20
+            },
+            "str": 14,
+            "dex": 15,
+            "con": 9,
+            "int": 6,
+            "wis": 6,
+            "cha": 5,
+            "passive": 8,
+            "cr": "1/2",
+            "page": 59,
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic"
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "trait": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries": [
+                        "While in sunlight, the filthlicker has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Sunlight Sensitivity"
+            ],
+            "action": [
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 12}). If this attack is a critical hit, the target also can't breathe or speak until the grapple ends."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "conditionInflict": [
+                "grappled"
+            ],
+            "fluff": {
+                "entries": [
+                    "A filthlicker (akaname in Draconic) may appear like a child at first sight. They are typically unkempt with long hair and tattered garb. Their defining characteristic is their long tongue which can extend the length of their entire body. They use this tongue to feed off putrid muck.",
+                    "A filthlicker will often ignore you unless you begin to start cleaning, at which point they will turn violent."
+                ]
+            },
+            "alias": [
+                "Akaname"
+            ],
+            "damageTags": [
+                "S"
+            ]
+        },
+        {
+            "name": "Lion-Dog",
+            "size": [
+                "L"
+            ],
+            "type": "celestial",
+            "source": "KuniosGuide",
+            "alignment": [
+                "L",
+                "G"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "10d10 + 60",
+                "average": 115
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 13,
+            "con": 22,
+            "int": 11,
+            "wis": 16,
+            "cha": 19,
+            "passive": 16,
+            "cr": "7",
+            "page": 59,
+            "senses": [
+                "truesight 20 ft."
+            ],
+            "senseTags": [
+                "U"
+            ],
+            "languages": [
+                "understands Seigai Draconic and Kami but can't speak them"
+            ],
+            "save": {
+                "con": "+9",
+                "wis": "+6",
+                "cha": "+7"
+            },
+            "skill": {
+                "athletics": "+7",
+                "intimidation": "+7",
+                "perception": "+6"
+            },
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                },
+                {
+                    "resist": [
+                        "radiant"
+                    ]
+                }
+            ],
+            "conditionImmune": [
+                "blinded",
+                "frightened",
+                "petrified"
+            ],
+            "trait": [
+                {
+                    "name": "Immutable Form",
+                    "entries": [
+                        "The lion-dog is immune to any spell or effect that would alter its form."
+                    ]
+                },
+                {
+                    "name": "Magic Weapons",
+                    "entries": [
+                        "The lion-dog's weapon attacks are magical."
+                    ]
+                },
+                {
+                    "name": "Living Statue",
+                    "entries": [
+                        "The lion-dog does not need to eat, drink, breathe, or sleep, and does not age. While motionless, the lion-dog is indistinguishable from a statue."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Immutable Form",
+                "Magic Weapons"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The lion-dog's innate spellcasting ability is Charisma (spell save {@dc 15}, +7 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell detect evil and good}",
+                        "{@spell sanctuary}",
+                        "{@spell thaumaturgy}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell hallow}",
+                            "{@spell remove curse}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The lion-dog makes two attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "fluff": {
+                "entries": [
+                    "In significant sacred spaces, you will often find a pair of lion-dogs at the entrance. Their appearance will be that of stone; the one on the left bares their teeth and represents the a (the beginning), while the one on the right keeps their lips closed representing the un (the end).",
+                    "When the sacred space is threatened, the lion-dogs will awake from their petrified slumber and fiercely defend the holy place and its inhabitants"
+                ]
+            },
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "savingThrowForcedSpell": [
+                "charisma",
+                "wisdom"
+            ]
+        },
+        {
+            "name": "Ō-Ryū",
+            "source": "KuniosGuide",
+            "entries": [
+                "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+            ]
+        },
+        {
+            "name": "Earth Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Earth Dragons",
+                            "entries" {
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
+                                        "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Water Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Water Dragons",
+                            "entries" {
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
+                                        "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
+                                        "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Fire Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Fire Dragons",
+                            "entries" {
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        "The first Fire dragon was born of the kami Shōjō-sama, who did not survive the labor. The newborn was given the name Kanushi-sama, meaning the “Lord of Fire”, and later slain in retribution.",
+                                        "Kanushi-sama’s offspring are rarely seen, other than around volcanic eruptions, such as the centennial eruption of Mount Yamabi. When they do appear, karyū are often mistaken for the ho-o at a distance, so they are often treated interchangeably in folk tales."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Air Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Air Dragons",
+                            "entries" {
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        "While all ō-ryū can fly, none take to the sky quite as elegantly as the fūryū—the Air dragons. I once saw a young fūryū over the mountains near Shikashi; the creature twirled through the sky like a ribbon. From a distance I could still observe the white-lilac scales and flowing silver hair, and I was moved to tears.",
+                                        "Not long after, I was standing out in the cold rain, soaked to the skin. Air dragons are often found riding the winds of a storm front.",
+                                        "The ancestor of the Air dragons, Fūnushi-sama, was emerged from the blood of Kanushi-sama as it pooled in Shōdan-sama’s clenched sword-hand. They are known as the “Lord of Rain and Snow”, and is especially called upon by the Seiganese people during seasons of drought."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Void Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Void Dragons",
+                            "entries" {
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        "Of all the ō-ryū, the least is understood about the Void dragons, or kūryū in Seiganese. They are native to the land of the kami, rarely interacting with our world. Their presence seems to disrupt the weave, causing sonon to dissipate into silence.",
+                                        "Kūnushi-sama is one of the four celestial guardians of Seigai, visible in the night sky to the East. When the moon is in Kūnushi-sama’s Heart Mansion, the Seiganese people hold a festival called Kūmatsuri in honor of their silent protector."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Carp Dragon",
+            "size": [
+                "M"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "10d8",
+                "average": 45
+            },
+            "speed": {
+                "swim": 60
+            },
+            "str": 16,
+            "dex": 10,
+            "con": 11,
+            "int": 10,
+            "wis": 13,
+            "cha": 17,
+            "passive": 13,
+            "cr": "2",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "page": 60,
+            "languages": [
+                "Seigai Draconic|KuniosGuide",
+                "Kami|KuniosGuide"
+            ],
+            "senses": [
+                "blindsight 10 ft.",
+                "darkvision 60 ft."
+            ],
+            "senseTags": [
+                "B",
+                "D"
+            ],
+            "save": {
+                "dex": "+2",
+                "con": "+2",
+                "wis": "+3",
+                "cha": "+5"
+            },
+            "skill": {
+                "perception": "+3",
+                "stealth": "+2"
+            },
+            "resist": [
+                "cold"
+            ],
+            "trait": [
+                {
+                    "name": "Swimming Leap",
+                    "entries": [
+                        "With a 10-foot swimming start, the dragon can long jump out of or across the water, up to 25 feet."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage, plus 3 ({@damage 1d6}) cold damage."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "C",
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide"
+            }
+        },
+        {
+            "name": "Young Earth Dragon",
+            "size": [
+                "L"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "13d10 + 13",
+                "average": 84
+            },
+            "speed": {
+                "walk": 20,
+                "swim": 60,
+                "fly": 60
+            },
+            "str": 17,
+            "dex": 11,
+            "con": 12,
+            "int": 10,
+            "wis": 15,
+            "cha": 19,
+            "passive": 15,
+            "cr": "6",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "page": "61",
+            "dragonAge": "young",
+            "languages": [
+                "Seigai Draconic|KuniosGuide",
+                "Kami|KuniosGuide"
+            ],
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "save": {
+                "str": "+6",
+                "dex": "+3",
+                "con": "+4",
+                "cha": "+7"
+            },
+            "skill": {
+                "intimidation": "+7",
+                "perception": "+5",
+                "stealth": "+3"
+            },
+            "immune": [
+                "acid"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 15}, +7 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell mold earth|XGE}",
+                        "{@spell seijin of stone|KuniosGuide}",
+                        "{@spell wall of stone}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell investiture of stone|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and one claw attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d10 + 3}) piercing damage, plus 3 ({@damage 1d6}) acid damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "damageTags": [
+                "A",
+                "B",
+                "P"
+            ],
+            "savingThrowForcedSpell": [
+                "dexterity"
+            ],
+            "_copy": {
+                "name": "Earth Dragons",
+                "source": "KuniosGuide"
+            }
+        },
+        {
+            "name": "Adult Earth Dragon",
+            "size": [
+                "H"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 19,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "15d12 + 30",
+                "average": 127
+            },
+            "speed": {
+                "walk": 20,
+                "swim": 60,
+                "fly": 90
+            },
+            "str": 21,
+            "dex": 13,
+            "con": 14,
+            "int": 10,
+            "wis": 17,
+            "cha": 23,
+            "passive": 18,
+            "cr": "13",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "dragonAge": "adult",
+            "languages": [
+                "Seigai Draconic|KuniosGuide",
+                "Kami|KuniosGuide"
+            ],
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "save": {
+                "str": "+10",
+                "dex": "+6",
+                "con": "+7",
+                "cha": "+11"
+            },
+            "skill": {
+                "intimidation": "+11",
+                "perception": "+8",
+                "stealth": "+6",
+                "deception": "+11"
+            },
+            "immune": [
+                "acid"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 19}, +11 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell mold earth|XGE}",
+                        "{@spell seijin of stone|KuniosGuide}",
+                        "{@spell wall of stone}"
+                    ],
+                    "daily": {
+                        "3": [
+                            "{@spell bones of the earth|XGE}",
+                            "{@spell investiture of stone|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, plus 3 ({@damage 1d6}) acid damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "page": 61,
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "legendaryActions": 3,
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a Tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "savingThrowForcedLegendary": [
+                "dexterity",
+                "strength"
+            ],
+            "damageTags": [
+                "A",
+                "B",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "B"
+            ],
+            "savingThrowForcedSpell": [
+                "dexterity"
+            ],
+            "_copy" {
+                "name": "Earth Dragons",
+                "source": "KuniosGuide"
+            }
+        },
+        {
+            "name": "Ancient Earth Dragon",
+            "size": [
+                "G"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 21,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "17d20 + 51",
+                "average": 229
+            },
+            "speed": {
+                "walk": 20,
+                "swim": 60,
+                "fly": 90
+            },
+            "str": 25,
+            "dex": 15,
+            "con": 16,
+            "int": 10,
+            "wis": 19,
+            "cha": 27,
+            "passive": 20,
+            "cr": "18",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "dragonAge": "ancient",
+            "languages": [
+                "Seigai Draconic|KuniosGuide",
+                "Kami|KuniosGuide"
+            ],
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "save": {
+                "str": "+13",
+                "dex": "+8",
+                "con": "+9",
+                "cha": "+14"
+            },
+            "skill": {
+                "intimidation": "+14",
+                "perception": "+10",
+                "stealth": "+8",
+                "deception": "+14"
+            },
+            "immune": [
+                "acid"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 22}, +14 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell mold earth|XGE}",
+                        "{@spell seijin of stone|KuniosGuide}",
+                        "{@spell wall of stone}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell earthquake}"
+                        ],
+                        "3": [
+                            "{@spell bones of the earth|XGE}",
+                            "{@spell investiture of stone|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}18 ({@damage 2d10 + 7}) piercing damage, plus 3 ({@damage 1d6}) acid damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 7}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Change Shape",
+                    "entries": [
+                        "The dragon magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+                        "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack",
+                "Shapechanger"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "page": 62,
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "legendaryActions": 3,
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a Tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 23}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "savingThrowForcedLegendary": [
+                "dexterity",
+                "strength"
+            ],
+            "damageTags": [
+                "A",
+                "B",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "B"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "dexterity"
+            ],
+            "_copy": {
+                "name": "Earth Dragons",
+                "source": "KuniosGuide"
+            }
         }
     ]
 }
