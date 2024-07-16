@@ -2849,7 +2849,7 @@
                         "items": {
                             "type": "entries",
                             "name": "Earth Dragons",
-                            "entries" {
+                            "entries": {
                                 {
                                     "type": "entries",
                                     "entries": [
@@ -2875,7 +2875,7 @@
                         "items": {
                             "type": "entries",
                             "name": "Water Dragons",
-                            "entries" {
+                            "entries": {
                                 {
                                     "type": "entries",
                                     "entries": [
@@ -2902,7 +2902,7 @@
                         "items": {
                             "type": "entries",
                             "name": "Fire Dragons",
-                            "entries" {
+                            "entries": {
                                 {
                                     "type": "entries",
                                     "entries": [
@@ -2928,7 +2928,7 @@
                         "items": {
                             "type": "entries",
                             "name": "Air Dragons",
-                            "entries" {
+                            "entries": {
                                 {
                                     "type": "entries",
                                     "entries": [
@@ -2955,7 +2955,7 @@
                         "items": {
                             "type": "entries",
                             "name": "Void Dragons",
-                            "entries" {
+                            "entries": {
                                 {
                                     "type": "entries",
                                     "entries": [
@@ -3379,7 +3379,7 @@
             "savingThrowForcedSpell": [
                 "dexterity"
             ],
-            "_copy" {
+            "_copy": {
                 "name": "Earth Dragons",
                 "source": "KuniosGuide"
             }
