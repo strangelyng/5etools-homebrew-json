@@ -14,13 +14,226 @@
                     "Strangelyng"
                 ],
                 "version": "2.0.4",
-                "url": "https://www.reddit.com/r/UnearthedArcana/comments/jzn47g/kunios_guide_to_seigai_second_release_a/",
-                "targetSchema": "1.0.0"
+                "url": "https://www.reddit.com/r/UnearthedArcana/comments/jzn47g/kunios_guide_to_seigai_second_release_a/"
             }
         ],
+        "status": "wip",
         "dateAdded": 0,
-        "dateLastModified": 1721128952
+        "dateLastModified": 1721177383,
+        "internalCopies": [
+            "monsterFluff"
+        ]
     },
+
+    "table": [
+        {
+            "name": "Table of Prominent Kami",
+            "source": "KuniosGuide",
+            "page": 25,
+            "colLabels": [
+                "Kami",
+                "Description",
+                "Major Domain",
+                "Minor Domain",
+                "Alignment"
+            ],
+            "rows": [
+                [
+                    "Shōjō-sama (she/her)",
+                    "The Female-Who-Invites. Among the first deities. With her husband Shōdan-sama, created the land of Seigai, and birthed the rest of the kami.",
+                    "Life",
+                    "Death",
+                    "Chaotic Neutral"
+                ],
+                [
+                    "Shōdan-sama (he/him)",
+                    "The Male-Who-Invites. Among the first deities. With his wife Shōjō-sama, created the land of Seigai, and sired the rest of the kami.",
+                    "Forge",
+                    "Nature",
+                    "Lawful Neutral"
+                ],
+                [
+                    "Tenshō-sama (she/her)",
+                    "The Heaven-Shining-Great-August-Deity. The great goddess of the Sun, supreme among the deities. Tenshō-sama ordained Suinushi-sama as Emperor.",
+                    "Light",
+                    "Life",
+                    "Lawful Neutral"
+                ],
+                [
+                    "Tsuki-sama (he/him)",
+                    "His Augustness, Moon-Night Possessor. A brother of Tenshō-sama, and governs the light of the moon. He and Tenshō-sama have an ancient quarrel, hence they are in different parts of the sky.",
+                    "Twilight",
+                    "Light",
+                    "Neutral"
+                ],
+                [
+                    "Ran-sama (he/him)",
+                    "His-Swift-Impetuous-Male-Augustness. Another brother of Tenshō-sama, and also in conflict with her. Through his cunning, Ran-sama slew Chinushi-sama, giving rise to the chinushi-zu.",
+                    "Tempest",
+                    "Trickery",
+                    "Chaotic Neutral"
+                ],
+                [
+                    "Inga-sama (she/her)",
+                    "Her Augustness, Heavenly-Alarming-Female. The goddess of the dawn and revelry. When Tenshō-sama once went into hiding, Inga-sama made the other kami laugh so much that Tenshō-sama came out of hiding to see what the commotion was about.",
+                    "Light",
+                    "Unity",
+                    "Chaotic Neutral"
+                ],
+                [
+                    "Kaze-sama (he/him)",
+                    "The Prince-of-Long-Wind. The god of the wind, and often paired with Kaminari-sama in holy places. Kaze-sama has a terrifying green-skinned appearance and carries a bag of wind around his shoulders.",
+                    "Tempest",
+                    "Arcana",
+                    "Chaotic Neutral"
+                ],
+                [
+                    "Kaminari-sama (he/him)",
+                    "The Eight Thunder-Deities. The god of storms, and often paired with Kaze-sama in holy places. Kaminari-sama has a similarly terrifying appearance, and carries with him the taiko drums of thunder.",
+                    "Tempest",
+                    "Nature",
+                    "Neutral"
+                ],
+                [
+                    "Yōnō-sama (she/them)",
+                    "The goddess of fertility and agriculture. Yōnō-sama has a close relationship with the kitsune, and is often depicted with a fox-like appearance. She is the most widely venerated kami in Seigai.",
+                    "Nature",
+                    "Life",
+                    "Chaotic Neutral"
+                ],
+                [
+                    "Bushi-sama (he/him)",
+                    "The Eight-Banners-Deity. The divine protector of Seigai and the god of warriors. The Azure invoke Bushi-sama before going into battle.",
+                    "War",
+                    "Unity",
+                    "Neutral"
+                ],
+                [
+                    "Kanushi-sama (he/him)",
+                    "The Shining-Elder. The kami of fire. The trauma of giving birth to Kanushi-sama killed Shōjō-sama, which sent her to the underworld.",
+                    "Forge",
+                    "Death",
+                    "Chaotic Neutral"
+                ],
+                [
+                    "Sōbai-sama (he/him)",
+                    "The Many-Minds'-Thought-Combining Deity. Sōbai-sama is the great mediator, the most wise of the kami.",
+                    "Order",
+                    "Knowledge",
+                    "Lawful Neutral"
+                ],
+                [
+                    "Mizu-sama (she/her)",
+                    "The guardian of pools, lakes, seas, and the ocean, and all who reside in them. Also the goddess of the sewers.",
+                    "Nature",
+                    "Grave",
+                    "Chaotic Neutral"
+                ]
+            ]
+        },
+        {
+            "name": "Mercenary Professions",
+            "source": "KuniosGuide",
+            "page": 47,
+            "colLabels": [
+                "Profession",
+                "Classes"
+            ],
+            "rows": [
+                [
+                    "Bushi",
+                    "{@class Barbarian}, {@class Fighter}, {@class Paladin}"
+                ],
+                [
+                    "Madōshi",
+                    "{@class Sorcerer}, {@class Warlock}, {@class Wizard}"
+                ],
+                [
+                    "Meijin",
+                    "{@class Artificer|TCE}, {@class Bard}, {@class Ranger}, {@class Rogue}"
+                ],
+                [
+                    "Sō",
+                    "{@class Cleric}, {@class Druid}, {@class Monk}"
+                ]
+            ]
+        },
+        {
+            "name": "Reskinning Monsters",
+            "source": "KuniosGuide",
+            "page": 58,
+            "colLabels": [
+                "Yokai",
+                "Use statblock for"
+            ],
+            "rows": [
+                [
+                    "Hibagon",
+                    "{@creature Yeti|MM}"
+                ],
+                [
+                    "Ho-o",
+                    "{@creature Phoenix|MPMM}"
+                ],
+                [
+                    "Ittan-momen",
+                    "{@creature Rug of Smothering|MM}"
+                ],
+                [
+                    "Jubokko",
+                    "{@creature Corpse Flower|MPMM}"
+                ],
+                [
+                    "Koromodako",
+                    "{@creature Kraken|MM}"
+                ],
+                [
+                    "Ningyo",
+                    "{@creature Merfolk|MM}"
+                ],
+                [
+                    "Nomori",
+                    "{@creature Behir|MM}"
+                ],
+                [
+                    "Omukade",
+                    "{@creature Remorhaz|MM}"
+                ],
+                [
+                    "Onibi",
+                    "{@creature Will-o'-wisp|MM}"
+                ],
+                [
+                    "Samebito",
+                    "{@creature Kuo-toa|MM}"
+                ],
+                [
+                    "Sogenbi",
+                    "{@creature Flameskull|MM}"
+                ],
+                [
+                    "Tennin",
+                    "{@creature Deva|MM}"
+                ],
+                [
+                    "Tsuchigumo",
+                    "{@creature Giant Spider|MM}"
+                ],
+                [
+                    "Tsukumogami",
+                    "{@creature Mimic|MM}"
+                ],
+                [
+                    "Yama uba",
+                    "{@creature Bheur Hag|MPMM}"
+                ],
+                [
+                    "Yurei",
+                    "{@creature Ghost|MM}"
+                ]
+            ]
+        }
+    ],
 
     "language": [
         {
@@ -433,6 +646,10 @@
                     "str": 1
                 }
             ],
+            "traitTags": [
+                "Natural Armor",
+                "Natural Weapon"
+            ],
             "size": [
                 "S"
             ],
@@ -625,6 +842,10 @@
                     "cha": 2
                 }
             ],
+            "traitTags": [
+                "Amphibious",
+                "Natural Weapon"
+            ],
             "size": [
                 "M"
             ],
@@ -659,6 +880,13 @@
                     "name": "Speed",
                     "entries": [
                         "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Claws",
+                    "entries": [
+                        "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashed damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
                     ]
                 },
                 {
@@ -1034,7 +1262,7 @@
             }
         },
         {
-            "name": "Bakeneko (Cat)",
+            "name": "Bakeneko",
             "source": "KuniosGuide",
             "raceName": "Shapechanger",
             "raceSource": "KuniosGuide",
@@ -1110,7 +1338,7 @@
             }
         },
         {
-            "name": "Kawauso (Otter)",
+            "name": "Kawauso",
             "source": "KuniosGuide",
             "raceName": "Shapechanger",
             "raceSource": "KuniosGuide",
@@ -1186,7 +1414,7 @@
             }
         },
         {
-            "name": "Kitsune (Fox)",
+            "name": "Kitsune",
             "source": "KuniosGuide",
             "raceName": "Shapechanger",
             "raceSource": "KuniosGuide",
@@ -1201,6 +1429,9 @@
             "overwrite": {
                 "ability": true
             },
+            "traitTags": [
+                "Language Proficiency"
+            ],
             "languageProficiencies": [
                 {
                     "anyStandard": 2
@@ -1280,7 +1511,7 @@
             }
         },
         {
-            "name": "Mujina (Badger)",
+            "name": "Mujina",
             "source": "KuniosGuide",
             "raceName": "Shapechanger",
             "raceSource": "KuniosGuide",
@@ -1356,7 +1587,7 @@
             }
         },
         {
-            "name": "Tanuki (Raccoon-Dog)",
+            "name": "Tanuki",
             "source": "KuniosGuide",
             "raceName": "Shapechanger",
             "raceSource": "KuniosGuide",
@@ -1562,6 +1793,9 @@
             "source": "KuniosGuide",
             "raceName": "Half-Oni",
             "raceSource": "KuniosGuide",
+            "traitTags": [
+                "Natural Armor"
+            ],
             "size": [
                 "S"
             ],
@@ -1755,6 +1989,9 @@
             "source": "KuniosGuide",
             "raceName": "Half-Oni",
             "raceSource": "KuniosGuide",
+            "traitTags": [
+                "Amphibious"
+            ],
             "size": [
                 "M"
             ],
@@ -2470,7 +2707,7 @@
                     "race": [
                         {
                             "name": "Shapechanger",
-                            "subrace": "Tanuki (Raccoon-Dog)"
+                            "subrace": "Tanuki"
                         }
                     ]
                 },
@@ -2539,7 +2776,7 @@
                     "race": [
                         {
                             "name": "Shapechanger",
-                            "subrace": "Kitsune (Fox)"
+                            "subrace": "Kitsune"
                         }
                     ]
                 }
@@ -2565,6 +2802,161 @@
                         "You grow an additional tail, up ot a maximum of nine tails."
 					]
 				}
+            ]
+        }
+    ],
+    
+    "monsterFluff": [
+        {
+            "name": "Ō-Ryū",
+            "source": "KuniosGuide",
+            "entries": [
+                {
+                    "type": "section",
+                    "name": "Ō-Ryū",
+                    "entries": [
+                        "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
+                        "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
+                        "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Earth Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Earth Dragons",
+                            "entries": [
+                                "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
+                                "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."    
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Water Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Water Dragons",
+                            "entries": [
+                                "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
+                                "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
+                                "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Fire Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Fire Dragons",
+                            "entries": [
+                                "The first Fire dragon was born of the kami Shōjō-sama, who did not survive the labor. The newborn was given the name Kanushi-sama, meaning the “Lord of Fire”, and later slain in retribution.",
+                                "Kanushi-sama’s offspring are rarely seen, other than around volcanic eruptions, such as the centennial eruption of Mount Yamabi. When they do appear, karyū are often mistaken for the ho-o at a distance, so they are often treated interchangeably in folk tales."
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Air Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Air Dragons",
+                            "entries": [
+                                "While all ō-ryū can fly, none take to the sky quite as elegantly as the fūryū—the Air dragons. I once saw a young fūryū over the mountains near Shikashi; the creature twirled through the sky like a ribbon. From a distance I could still observe the white-lilac scales and flowing silver hair, and I was moved to tears.",
+                                "Not long after, I was standing out in the cold rain, soaked to the skin. Air dragons are often found riding the winds of a storm front.",
+                                "The ancestor of the Air dragons, Fūnushi-sama, was emerged from the blood of Kanushi-sama as it pooled in Shōdan-sama’s clenched sword-hand. They are known as the “Lord of Rain and Snow”, and is especially called upon by the Seiganese people during seasons of drought."
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Void Dragons",
+            "source": "KuniosGuide",
+            "_copy": {
+                "name": "Ō-Ryū",
+                "source": "KuniosGuide",
+                "_mod": {
+                    "entries": {
+                        "mode": "prependArr",
+                        "items": {
+                            "type": "entries",
+                            "name": "Void Dragons",
+                            "entries": [
+                                "Of all the ō-ryū, the least is understood about the Void dragons, or kūryū in Seiganese. They are native to the land of the kami, rarely interacting with our world. Their presence seems to disrupt the weave, causing sonon to dissipate into silence.",
+                                "Kūnushi-sama is one of the four celestial guardians of Seigai, visible in the night sky to the East. When the moon is in Kūnushi-sama’s Heart Mansion, the Seiganese people hold a festival called Kūmatsuri in honor of their silent protector."
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Oni",
+            "source": "KuniosGuide",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Oni",
+                    "entries": [
+                        "The oni are the most feared of all the yōkai, and tales of their deeds make up the majority of the Seiganese ghost stories known as kaidan.",
+                        "An oni is formed when an individual has wandered so far down the path of evil that all hope of redemption is lost. Their skin will begin to change color; horns will sprout from their head; they will grow supernaturally strong; and their obsession: causing others to suffer.",
+                        "Never allow an oni to station itself North-East of you. This is the kimon, or “demon gate”, where the oni’s powers are strongest. However, regardless of where, an oni encounter will usually spell your doom."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tengu",
+            "source": "KuniosGuide",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Tengu",
+                    "entries": [
+                        "Two varieties of tengu exist, and while they are often in league, they are certainly quite unlike each other.",
+                        "The kotengu is perhaps similar to a bird who stands erect like a human. Their arms are covered in greasy feathers allowing them to fly, although devoid of a swallow’s grace, as they must flap their arms vigorously to stay aloft. Their garb usually consists of clothes stolen from the bodies of their ambush victims, and they frighten passersby with their loud chattering squawks. They are, put simply, a violent nuisance, and responsible for the majority of missing travelers on Shōdanshima's roads.",
+                        "Meanwhile, daitengu are everything in countenance that a kotengu is not. The daitengu resembles a tall human with a long phallic nose and red skin. They too are capable of short flight, using the marbled wings that sprout from their backs. Daitengu are capable sonon users and skilled with the blade, which is expertise they may share—if you can prove yourself worthy. To find a daitengu, look to the mountains, so it is said."
+                    ]
+                }
             ]
         }
     ],
@@ -2912,12 +3304,10 @@
                 "MW"
             ],
             "fluff": {
-                "type": "entries",
-                "entries": [
-                    "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
-                    "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
-                    "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
-                ]
+                "_monsterFluff": {
+                    "name": "Ō-Ryū",
+                    "source": "KuniosGuide"
+                }
             }
         },
         {
@@ -3010,6 +3400,17 @@
             "spellcastingTags": [
                 "I"
             ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
             "action": [
                 {
                     "name": "Multiattack",
@@ -3052,25 +3453,10 @@
                 "dexterity"
             ],
             "fluff": {
-                "type": "entries",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
-                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
-                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Earth Dragons",
-                        "entries": [
-                            "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
-                            "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
-                        ]
-                    }
-                ]
+                "_monsterFluff": {
+                    "name": "Earth Dragons",
+                    "source": "KuniosGuide"
+                }
             }
         },
         {
@@ -3233,7 +3619,7 @@
                 {
                     "name": "Constrict (Costs 2 Actions)",
                     "entries": [
-                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
                     ]
                 }
             ],
@@ -3257,25 +3643,10 @@
                 "dexterity"
             ],
             "fluff": {
-                "type": "entries",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
-                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
-                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Earth Dragons",
-                        "entries": [
-                            "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
-                            "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
-                        ]
-                    }
-                ]
+                "_monsterFluff": {
+                    "name": "Earth Dragons",
+                    "source": "KuniosGuide"
+                }
             }
         },
         {
@@ -3449,7 +3820,7 @@
                 {
                     "name": "Constrict (Costs 2 Actions)",
                     "entries": [
-                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 23}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
                     ]
                 }
             ],
@@ -3474,25 +3845,10 @@
                 "dexterity"
             ],
             "fluff": {
-                "type": "entries",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
-                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
-                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Earth Dragons",
-                        "entries": [
-                            "The Earth dragons, known as chiryū, are the weakest of all the ō-ryū—and yet, they hold all the political power in Seigai. Their progenitor is Chinushi-sama, the eight-forked serpent of Koshi, and this affords them special status due to their shared lineage with the chinushi-zu daimyō.",
-                            "To identify an Earth dragon, look for its sandy scales and algae-green hair. You will know an Earth dragon has been in town recently if the streets need repaving."
-                        ]
-                    }
-                ]
+                "_monsterFluff": {
+                    "name": "Earth Dragons",
+                    "source": "KuniosGuide"
+                }
             }
         },
         {
@@ -3643,26 +3999,10 @@
                 "dexterity"
             ],
             "fluff": {
-                "type": "entries",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
-                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
-                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
-                            ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Water Dragons",
-                        "entries": [
-                            "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
-                            "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
-                            "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
-                        ]
-                    }
-                ]
+                "_monsterFluff": {
+                    "name": "Water Dragons",
+                    "source": "KuniosGuide"
+                }
             }
         },
         {
@@ -3825,7 +4165,7 @@
                 {
                     "name": "Constrict (Costs 2 Actions)",
                     "entries": [
-                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target.."
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target.."
                     ]
                 }
             ],
@@ -3848,26 +4188,10 @@
                 "strength"
             ],
             "fluff": {
-                "type": "entries",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
-                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
-                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
-                            ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Water Dragons",
-                        "entries": [
-                            "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
-                            "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
-                            "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
-                        ]
-                    }
-                ]
+                "_monsterFluff": {
+                    "name": "Water Dragons",
+                    "source": "KuniosGuide"
+                }
             }
         },
         {
@@ -4013,8 +4337,7 @@
                     "name": "Change Shape",
                     "entries": [
                         "The dragon magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-                        "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or",
-                        "legendary actions of that form."
+                        "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
                     ]
                 }
             ],
@@ -4065,26 +4388,2095 @@
                 "strength"
             ],
             "fluff": {
-                "type": "entries",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            "All ō-ryū dragons start out life in a larval form. These are the carp dragons. A famous folk story states that carp dragons ascend to adulthood once they can leap over the Heavenly Falls on the River Zaikara. (The truth is disappointingly more mundane; adulthood more of a gradual transformation. However, carp dragons are well aware of the tale. If you spot a carp dragon jumping up a waterfall, they are laughing at you behind your back.)",
-                            "Once matured, the ō-ryū will have developed into one of five categories of ō-ryū each having an affinity to and origin born of the five elements: chiryū (Earth), suiryū (Water), karyū (Fire), fūryū (Air), and kūryū (Void). Each family of dragons has an elder dragon kami from whom they all descend; for instance, Chinushi-sama is the dragon kami for the chiryū family (Earth dragons), and the Emperor Suinushisama is the dragon kami for the suiryū family (Water dragons).",
-                            "Unlike the chromatic and metallic dragons who inhabit other lands, the adult ō-ryū are nebulous creatures with no clear consistent morality: at one moment the wisest creatures one could ever meet; the next, incomparably cruel and vindictive. However, they are often quite reclusive. Most Seiganese people will never meet a dragon."
-                            ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Water Dragons",
-                        "entries": [
-                            "While Earth dragons may hold the most political power of the ō-ryū, they are not the most numerous. That title is held by the Water dragons, who inhabit the many lakes and wide open seas of Seigai.",
-                            "The Emperor Suinushi-sama is the highest of all the suiryū, as they are known. While he held office for many centuries, no Water dragon is ever truly at home on dry land; reports say he is much happier in his exile in Ryūgū-jō.",
-                            "Water dragons have scales of teal-green to aquamarine. Their form is more streamlined and their feet are webbed to aid in propulsion through the depths. Their diet usually consists of large sharks and squid."
+                "_monsterFluff": {
+                    "name": "Water Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Young Fire Dragon",
+            "size": [
+                "L"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 64,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "15d10 + 30",
+                "average": 112
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 60,
+                "swim": 60
+            },
+            "str": 19,
+            "dex": 13,
+            "con": 14,
+            "int": 10,
+            "wis": 17,
+            "cha": 21,
+            "passive": 16,
+            "cr": "8",
+            "dragonAge": "young",
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+7",
+                "dex": "+4",
+                "con": "+5",
+                "cha": "+8"
+            },
+            "skill": {
+                "arcana": "+3",
+                "perception": "+6",
+                "stealth": "+4"
+            },
+            "immune": [
+                "fire"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 16}, +8 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell control flames|XGE}",
+                        "{@spell seijin of flame|KuniosGuide}",
+                        "{@spell wall of fire}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell investiture of flame|XGE}"
                         ]
-                    }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and one claw attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage, plus 3 ({@damage 1d6}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "group": [
+                "Ō-Ryū"
+            ],
+            "damageTags": [
+                "B",
+                "F",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "F"
+            ],
+            "savingThrowForcedSpell": [
+                "dexterity"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Fire Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Adult Fire Dragon",
+            "size": [
+                "H"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 64,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "17d12 + 51",
+                "average": 161
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 90,
+                "swim": 60
+            },
+            "str": 23,
+            "dex": 15,
+            "con": 16,
+            "int": 10,
+            "wis": 19,
+            "cha": 25,
+            "passive": 19,
+            "cr": "15",
+            "dragonAge": "adult",
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+11",
+                "dex": "+7",
+                "con": "+8",
+                "cha": "+12"
+            },
+            "skill": {
+                "arcana": "+5",
+                "stealth": "+7",
+                "intimidation": "+12",
+                "perception": "+9"
+            },
+            "immune": [
+                "fire"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 20}, +12 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell control flames|XGE}",
+                        "{@spell seijin of flame|KuniosGuide}",
+                        "{@spell wall of fire}"
+                    ],
+                    "daily": {
+                        "3": [
+                            "{@spell immolation|XGE}",
+                            "{@spell investiture of flame|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, plus 3 ({@damage 1d6}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "group": [
+                "Ō-Ryū"
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a Tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "damageTags": [
+                "B",
+                "F",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "F"
+            ],
+            "savingThrowForcedSpell": [
+                "dexterity"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Fire Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Ancient Fire Dragon",
+            "size": [
+                "G"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 65,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 23,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "24d20 + 96",
+                "average": 348
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 90,
+                "swim": 60
+            },
+            "str": 27,
+            "dex": 17,
+            "con": 18,
+            "int": 10,
+            "wis": 21,
+            "cha": 29,
+            "passive": 22,
+            "cr": "22",
+            "dragonAge": "ancient",
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+15",
+                "dex": "+10",
+                "con": "+11",
+                "cha": "+16"
+            },
+            "skill": {
+                "arcana": "+7",
+                "stealth": "+10",
+                "intimidation": "+16",
+                "perception": "+12"
+            },
+            "immune": [
+                "fire"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 24}, +16 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell control flames|XGE}",
+                        "{@spell seijin of flame|KuniosGuide}",
+                        "{@spell wall of fire}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell incendiary cloud}"
+                        ],
+                        "3": [
+                            "{@spell immolation|XGE}",
+                            "{@spell investiture of flame|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage, plus 3 ({@damage 1d6}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Change Shape",
+                    "entries": [
+                        "The dragon magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+                        "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "group": [
+                "Ō-Ryū"
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a Tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 15} to hit, reach 10 ft., one creature. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "damageTags": [
+                "B",
+                "F",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "F"
+            ],
+            "savingThrowForcedSpell": [
+                "dexterity"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Fire Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Young Air Dragon",
+            "size": [
+                "L"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 66,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "16d10 + 32",
+                "average": 120
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 60,
+                "swim": 60
+            },
+            "str": 21,
+            "dex": 13,
+            "con": 14,
+            "int": 10,
+            "wis": 19,
+            "cha": 23,
+            "passive": 18,
+            "cr": "9",
+            "dragonAge": "young",
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+9",
+                "dex": "+5",
+                "con": "+6",
+                "cha": "+10"
+            },
+            "skill": {
+                "acrobatics": "+5",
+                "perception": "+8",
+                "stealth": "+5"
+            },
+            "immune": [
+                "lightning"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 18}, +10 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell gust|XGE}",
+                        "{@spell seijin of wind|KuniosGuide}",
+                        "{@spell wind wall}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell investiture of wind|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and one claw attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, plus 3 ({@damage 1d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "group": [
+                "Ō-Ryū"
+            ],
+            "damageTags": [
+                "B",
+                "C",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "B",
+                "S"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "strength"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Air Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Adult Air Dragon",
+            "size": [
+                "H"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 66,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "18d12 + 54",
+                "average": 171
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 90,
+                "swim": 60
+            },
+            "str": 25,
+            "dex": 15,
+            "con": 16,
+            "int": 10,
+            "wis": 21,
+            "cha": 27,
+            "passive": 20,
+            "cr": "16",
+            "dragonAge": "adult",
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+12",
+                "dex": "+7",
+                "con": "+8",
+                "cha": "+13"
+            },
+            "skill": {
+                "acrobatics": "+7",
+                "perception": "+10",
+                "stealth": "+7",
+                "persuasion": "+13"
+            },
+            "immune": [
+                "lightning"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 21}, +13 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell gust|XGE}",
+                        "{@spell seijin of wind|KuniosGuide}",
+                        "{@spell wind wall}"
+                    ],
+                    "daily": {
+                        "3": [
+                            "{@spell control winds|XGE}",
+                            "{@spell investiture of wind|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) piercing damage, plus 3 ({@damage 1d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a Tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "group": [
+                "Ō-Ryū"
+            ],
+            "damageTags": [
+                "B",
+                "C",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "B",
+                "S"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "strength"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Air Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Ancient Air Dragon",
+            "size": [
+                "G"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 67,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 23,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "25d20 + 100",
+                "average": 362
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 90,
+                "swim": 60
+            },
+            "str": 29,
+            "dex": 17,
+            "con": 18,
+            "int": 10,
+            "wis": 23,
+            "cha": 30,
+            "passive": 23,
+            "cr": "23",
+            "dragonAge": "ancient",
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+16",
+                "dex": "+10",
+                "con": "+11",
+                "cha": "+17"
+            },
+            "skill": {
+                "acrobatics": "+10",
+                "perception": "+13",
+                "stealth": "+10",
+                "persuasion": "+17"
+            },
+            "immune": [
+                "lightning"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 25}, +17 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell gust|XGE}",
+                        "{@spell seijin of wind|KuniosGuide}",
+                        "{@spell wind wall}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell control weather}"
+                        ],
+                        "3": [
+                            "{@spell control winds|XGE}",
+                            "{@spell investiture of wind|XGE}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) piercing damage, plus 3 ({@damage 1d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d6 + 9}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Change Shape",
+                    "entries": [
+                        "The dragon magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+                        "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack",
+                "Shapechanger"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a Tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 16} to hit, reach 10 ft., one creature. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "group": [
+                "Ō-Ryū"
+            ],
+            "damageTags": [
+                "B",
+                "C",
+                "P"
+            ],
+            "damageTagsSpell": [
+                "B",
+                "S"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "strength"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Air Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Young Void Dragon",
+            "size": [
+                "L"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 68,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "17d10 + 51",
+                "average": 144
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 60,
+                "swim": 60
+            },
+            "str": 21,
+            "dex": 13,
+            "con": 16,
+            "int": 14,
+            "wis": 20,
+            "cha": 23,
+            "passive": 19,
+            "cr": "10",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "dragonAge": "young",
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+9",
+                "dex": "+5",
+                "con": "+7",
+                "cha": "+10"
+            },
+            "skill": {
+                "intimidation": "+10",
+                "perception": "+9",
+                "stealth": "+5"
+            },
+            "immune": [
+                "thunder"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 18}, +10 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell seijin of aether|KuniosGuide}",
+                        "{@spell thaumaturgy}",
+                        "{@spell true strike}",
+                        "{@spell wall of force}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell investiture of aether|KuniosGuide}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and one claw attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, plus 3 ({@damage 1d6}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "languageTags": [
+                "DR"
+            ],
+            "damageTags": [
+                "B",
+                "P",
+                "T"
+            ],
+            "damageTagsSpell": [
+                "T"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Void Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Adult Void Dragon",
+            "size": [
+                "H"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 68,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "19d12 + 57",
+                "average": 180
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 90,
+                "swim": 60
+            },
+            "str": 25,
+            "dex": 15,
+            "con": 16,
+            "int": 14,
+            "wis": 24,
+            "cha": 27,
+            "passive": 23,
+            "cr": "17",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "dragonAge": "adult",
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+13",
+                "dex": "+8",
+                "con": "+9",
+                "cha": "+14"
+            },
+            "skill": {
+                "intimidation": "+14",
+                "perception": "+13",
+                "stealth": "+8",
+                "insight": "+13"
+            },
+            "immune": [
+                "thunder"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 22}, +14 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell seijin of aether|KuniosGuide}",
+                        "{@spell thaumaturgy}",
+                        "{@spell true strike}",
+                        "{@spell wall of force}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell crown of stars|XGE}"
+                        ],
+                        "3": [
+                            "{@spell investiture of aether|KuniosGuide}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) piercing damage, plus 3 ({@damage 1d6}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a Tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "damageTags": [
+                "B",
+                "P",
+                "T"
+            ],
+            "damageTagsSpell": [
+                "R",
+                "T"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Void Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Ancient Void Dragon",
+            "size": [
+                "G"
+            ],
+            "type": "dragon",
+            "source": "KuniosGuide",
+            "page": 69,
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 23,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "28d20 + 112",
+                "average": 406
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 90,
+                "swim": 60
+            },
+            "str": 29,
+            "dex": 17,
+            "con": 18,
+            "int": 14,
+            "wis": 28,
+            "cha": 30,
+            "passive": 26,
+            "cr": "24",
+            "group": [
+                "Ō-Ryū"
+            ],
+            "dragonAge": "ancient",
+            "senses": [
+                "blindsight 60 ft.",
+                "darkvision 120 ft."
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "languages": [
+                "Seigai Draconic",
+                "Kami"
+            ],
+            "save": {
+                "str": "+16",
+                "dex": "+10",
+                "con": "+11",
+                "cha": "+17"
+            },
+            "skill": {
+                "intimidation": "+17",
+                "perception": "+16",
+                "stealth": "+10",
+                "insight": "+16"
+            },
+            "immune": [
+                "thunder"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dragon's innate spellcasting ability is Charisma (spell save {@dc 25}, +17 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell seijin of aether|KuniosGuide}",
+                        "{@spell thaumaturgy}",
+                        "{@spell true strike}",
+                        "{@spell wall of force}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell dark star|EGW}"
+                        ],
+                        "3": [
+                            "{@spell crown of stars|XGE}",
+                            "{@spell investiture of aether|KuniosGuide}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Legendary Resistances"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes one bite attack and two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) piercing damage, plus 3 ({@damage 1d6}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d6 + 9}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Change Shape",
+                    "entries": [
+                        "The dragon magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+                        "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack",
+                "Shapechanger"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The dragon makes a Tail attack."
+                    ]
+                },
+                {
+                    "name": "Constrict (Costs 2 Actions)",
+                    "entries": [
+                        "{@atk mw} {@hit 16} to hit, reach 10 ft., one creature. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the creature is {@condition restrained}, and the dragon can't constrict another target."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "damageTags": [
+                "B",
+                "P",
+                "T"
+            ],
+            "damageTagsSpell": [
+                "O",
+                "R",
+                "T"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Void Dragons",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Amanojaku",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "fiend",
+                "tags": [
+                    "oni"
                 ]
+            },
+            "source": "KuniosGuide",
+            "page": 70,
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "8d8 + 24",
+                "average": 60
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 16,
+            "int": 7,
+            "wis": 6,
+            "cha": 17,
+            "passive": 8,
+            "cr": "3",
+            "languages": [
+                "Seigai Draconic",
+                "Oni",
+                "telepathy 60 ft."
+            ],
+            "languageTags": [
+                "TP"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "save": {
+                "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5",
+                "intimidation": "+5"
+            },
+            "immune": [
+                "fire"
+            ],
+            "trait": [
+                {
+                    "name": "Telepathic Bond",
+                    "entries": [
+                        "The Amanojaku ignores the range restriction on its telepathy when communicating with a creature it has {@condition charmed}. The two don't even need to be on the same plane of existence."
+                    ]
+                },
+                {
+                    "name": "Moral Compass",
+                    "entries": [
+                        "Whenever a creature the Amanojaku can see voluntarily moves across an imaginary line that extends South-West from the Amanojaku, they must succeed on a {@dc 13} Charisma saving throw or be magically {@condition charmed} for 1 day. While {@condition charmed}, the Amanojaku has access to all the most selfish and evil desires of the target's heart. The {@condition charmed} target obeys any of the Amanojaku's verbal or telepathic commands to act on their selfish instinct. If the target suffers any harm or receives a command to harm itself, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this Amanojaku's Charm for the next 24 hours. ",
+                        "The Amanojaku can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Amanojaku makes two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "group": [
+                "Oni"
+            ],
+            "damageTags": [
+                "S"
+            ],
+            "savingThrowForced": [
+                "charisma"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Oni",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Oni",
+            "size": [
+                "H"
+            ],
+            "type": {
+                "type": "fiend",
+                "tags": [
+                    "oni"
+                ]
+            },
+            "source": "KuniosGuide",
+            "page": 70,
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "12d12 + 60",
+                "average": 138
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 22,
+            "dex": 13,
+            "con": 20,
+            "int": 8,
+            "wis": 7,
+            "cha": 14,
+            "passive": 11,
+            "cr": "8",
+            "languages": [
+                "Seigai Draconic",
+                "Oni"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "save": {
+                "str": "+9",
+                "con": "+8"
+            },
+            "skill": {
+                "athletics": "+9",
+                "intimidation": "+5",
+                "perception": "+1"
+            },
+            "immune": [
+                "fire"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Oni makes two kanabō attacks."
+                    ]
+                },
+                {
+                    "name": "Kanabō",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "group": [
+                "Oni"
+            ],
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "reaction": [
+                {
+                    "name": "Demon Gate",
+                    "entries": [
+                        "Whenever a creature the Oni can see voluntarily moves across an imaginary line that extends South-West from the Oni, the Oni can use its reaction to move up to 10 feet towards the creature and make an attack against the creature. "
+                    ]
+                }
+            ],
+            "damageTags": [
+                "B"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Oni",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Kotengu",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "tengu"
+                ]
+            },
+            "source": "KuniosGuide",
+            "page": 71,
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "ac": [
+                15
+            ],
+            "hp": {
+                "formula": "2d8",
+                "average": 9
+            },
+            "speed": {
+                "walk": 30,
+                "fly": 50
+            },
+            "str": 11,
+            "dex": 14,
+            "con": 10,
+            "int": 6,
+            "wis": 6,
+            "cha": 8,
+            "passive": 8,
+            "cr": "1/4",
+            "group": [
+                "Tengu"
+            ],
+            "languages": [
+                "Seigai Draconic"
+            ],
+            "languageTags": [
+                "DR"
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
+            "trait": [
+                {
+                    "name": "Feathered Fool",
+                    "entries": [
+                        "Kotengu are overconfident creatures and easily tricked. The Kotengu has disadvantage on Wisdom ({@skill Insight}) checks."
+                    ]
+                },
+                {
+                    "name": "Winged Arms",
+                    "entries": [
+                        "While flying, the Kotengu is unable to make ranged weapon attacks unless directly above the target. The Kotengu can still grasp items with its feet and make melee weapon attacks."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d6}) piercing damage in melee, or 3 ({@damage 1d6}) piercing damage at range, or 4 ({@damage 1d8}) piercing damage if used with both hands to make a melee attack."
+                    ]
+                },
+                {
+                    "name": "Rock",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 60/180 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "RW",
+                "MW",
+                "MLW",
+                "THW"
+            ],
+            "attachedItems": [
+                "spear|phb"
+            ],
+            "reaction": [
+                {
+                    "name": "Tantrum",
+                    "entries": [
+                        "When the Kotengu has its hit points reduced below maximum, it enters a tantrum, and uses it reaction to move up to 30 feet in the direction of the attacker and make an attack with its spear."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "B",
+                "P"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Tengu",
+                    "source": "KuniosGuide"
+                }
+            }
+        },
+        {
+            "name": "Daitengu",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "tengu"
+                ]
+            },
+            "source": "KuniosGuide",
+            "page": 71,
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                17
+            ],
+            "hp": {
+                "formula": "10d8 + 20",
+                "average": 65
+            },
+            "speed": {
+                "walk": 30,
+                "fly": 50
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 14,
+            "wis": 20,
+            "cha": 13,
+            "passive": 15,
+            "cr": "6",
+            "group": [
+                "Tengu"
+            ],
+            "languages": [
+                "Seigai Draconic"
+            ],
+            "skill": {
+                "acrobatics": "+7",
+                "athletics": "+6",
+                "insight": "+8"
+            },
+            "save": {
+                "dex": "+7",
+                "wis": "+8"
+            },
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The Daitengu's spellcasting ability is Wisdom (spell save {@dc 16}, +8 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell dancing lights}",
+                        "{@spell message}",
+                        "{@spell produce flame}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell disguise self}",
+                            "{@spell levitate} (self only)",
+                            "{@spell misty step}",
+                            "{@spell suggestion}"
+                        ],
+                        "1e": [
+                            "{@spell control winds|XGE}"
+                        ]
+                    },
+                    "ability": "wis",
+                    "type": "spellcasting"
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Daitengu makes three naginata attacks."
+                    ]
+                },
+                {
+                    "name": "Naginata",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack",
+                "Parry"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "reaction": [
+                {
+                    "name": "Parry",
+                    "entries": [
+                        "The Daitengu adds 3 to its AC against one melee attack that would hit it. To do so, the Daitengu must see the attacker and be wielding a melee weapon."
+                    ]
+                },
+                {
+                    "name": "Counter-Flank",
+                    "entries": [
+                        "When the Daitengu is hit by an attack that has advantage due to flanking, they can make one attack against the attacker with their naginata."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "S"
+            ],
+            "damageTagsSpell": [
+                "F"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "strength",
+                "wisdom"
+            ],
+            "fluff": {
+                "_monsterFluff": {
+                    "name": "Tengu",
+                    "source": "KuniosGuide"
+                }
             }
         }
     ]
