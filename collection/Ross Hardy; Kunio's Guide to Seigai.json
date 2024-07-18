@@ -18,8 +18,8 @@
             }
         ],
         "status": "wip",
-        "dateAdded": 0,
-        "dateLastModified": 1721257156,
+        "dateAdded": 1721257380,
+        "dateLastModified": 1721260915,
         "internalCopies": [
             "monsterFluff"
         ]
@@ -203,6 +203,731 @@
                             "page": 10,
                             "entries": [
                                 "You will be hard-pressed to find an individual who speaks the language known as Common on the streets of the capital Kōtoshi. The equivalent language for the citizens of Seigai is Draconic. Seigai Draconic has its own writing system, where each glyph describes a consonant-vowel pair (known as a {@i kana}). Some of the consonant-vowel sounds in the Common language are unused in Draconic. It may be easiest to present a table* of the available {@i kana}, so you can see what I mean.",
+                                {
+                                    "type": "table",
+                                    "caption": "Seigai Draconic Script",
+                                    "colStyles": [
+                                        "col-2 bold text-center",
+                                        "col-2 text-center",
+                                        "col-2 text-center",
+                                        "col-2 text-center",
+                                        "col-2 text-center",
+                                        "col-2 text-center"
+                                    ],
+                                    "colLabelGroups": [
+                                        {
+                                            "colLabels": [
+                                                "∅"
+                                            ]
+                                        },
+                                        {
+                                            "colLabels": [
+                                                "a",
+                                                "ア"
+                                            ]
+                                        },
+                                        {
+                                            "colLabels": [
+                                                "i",
+                                                "イ"
+                                            ]
+                                        },
+                                        {
+                                            "colLabels": [
+                                                "u",
+                                                "ウ"
+                                            ]
+                                        },
+                                        {
+                                            "colLabels": [
+                                                "e",
+                                                "エ"
+                                            ]
+                                        },
+                                        {
+                                            "colLabels": [
+                                                "o",
+                                                "オ"
+                                            ]
+                                        }
+                                    ],
+                                    "rows": [
+                                        [
+                                            "k",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ka",
+                                                    "カ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ki",
+                                                    "キ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ku",
+                                                    "ク"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ke",
+                                                    "ケ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ko",
+                                                    "コ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "g",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ga",
+                                                    "ガ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "gi",
+                                                    "ギ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "gu",
+                                                    "グ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ge",
+                                                    "ゲ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "go",
+                                                    "ゴ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "s",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "sa",
+                                                    "サ"
+                                                ]
+                                            },
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "su",
+                                                    "ス"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "se",
+                                                    "セ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "so",
+                                                    "ソ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "z",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "za",
+                                                    "ザ"
+                                                ]
+                                            },
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "zu",
+                                                    "ズ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ze",
+                                                    "ゼ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "zo",
+                                                    "ゾ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "t",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ta",
+                                                    "タ"
+                                                ]
+                                            },
+                                            "—",
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "te",
+                                                    "テ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "to",
+                                                    "ト"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "d",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "da",
+                                                    "ダ"
+                                                ]
+                                            },
+                                            "—",
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "de",
+                                                    "デ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "do",
+                                                    "ド"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "n",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "na",
+                                                    "ナ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ni",
+                                                    "ニ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "nu",
+                                                    "ヌ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ne",
+                                                    "ネ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "no",
+                                                    "ノ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "h",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ha",
+                                                    "ハ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "hi",
+                                                    "ヒ"
+                                                ]
+                                            },
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "he",
+                                                    "ヘ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ho",
+                                                    "ホ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "b",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ba",
+                                                    "バ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "bi",
+                                                    "ビ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "bu",
+                                                    "ブ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "be",
+                                                    "ベ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "bo",
+                                                    "ボ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "p",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "pa",
+                                                    "パ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "pi",
+                                                    "ピ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "pu",
+                                                    "プ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "pe",
+                                                    "ペ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "po",
+                                                    "ポ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "m",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ma",
+                                                    "マ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "mi",
+                                                    "ミ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "mu",
+                                                    "ム"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "me",
+                                                    "メ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "mo",
+                                                    "モ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "y",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ya",
+                                                    "ヤ"
+                                                ]
+                                            },
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "yu",
+                                                    "ユ"
+                                                ]
+                                            },
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "yo",
+                                                    "ヨ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "r",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ra",
+                                                    "ラ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ri",
+                                                    "リ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ru",
+                                                    "ル"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "re",
+                                                    "レ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ro",
+                                                    "ロ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "w",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "wa",
+                                                    "ワ"
+                                                ]
+                                            },
+                                            "—",
+                                            "—",
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "o/wo",
+                                                    "ヲ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "f",
+                                            "—",
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "fu",
+                                                    "フ"
+                                                ]
+                                            },
+                                            "—",
+                                            "—"
+                                        ],
+                                        [
+                                            "ts",
+                                            "—",
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "tsu",
+                                                    "ツ"
+                                                ]
+                                            },
+                                            "—",
+                                            "—"
+                                        ],
+                                        [
+                                            "sh",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "sha",
+                                                    "シャ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "shi",
+                                                    "シ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "shu",
+                                                    "シュ"
+                                                ]
+                                            },
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "sho",
+                                                    "ショ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "ch",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "cha",
+                                                    "チャ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "chi",
+                                                    "チ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "chu",
+                                                    "チュ"
+                                                ]
+                                            },
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "cho",
+                                                    "チョ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "j",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ja",
+                                                    "ジャ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ji",
+                                                    "ジ"
+                                                ]
+                                            },
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "ju",
+                                                    "ジュ"
+                                                ]
+                                            },
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "jo",
+                                                    "ジョ"
+                                                ]
+                                            }
+                                        ],
+                                        [
+                                            "n",
+                                            "—",
+                                            "—",
+                                            {
+                                                "type": "list",
+                                                "style": "list-no-bullets",
+                                                "items": [
+                                                    "n (no vowel)",
+                                                    "ン"
+                                                ]
+                                            },
+                                            "—",
+                                            "—"
+                                        ]
+                                    ],
+                              			"footnotes": [
+                              				"* This table has been created for a foreign audience, and as such some characters have been moved from their proper spots for simplicity of understanding."
+                              			]
+                                },
                                 {
                                     "type": "entries",
                                     "name": "Pronunciation Guide",
